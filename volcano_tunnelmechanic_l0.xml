@@ -1,0 +1,43 @@
+﻿<Conversation auto="true" characterName="Mechanic">
+	<Question txt='Hello.. Do you hear zis volcano ? Rumble Rumble, but no eruption!' id="1">
+		<reply ans="2">Yes I hear. How can I help you?</reply>
+		<reply ans="5">Bye</reply>
+	</Question>
+	<Question auto="false" type="checkProg" id="2" ans="1" txt="I'm trying to fix zis cart. I need a few zings, can you help me?">
+		<reply ans="3">Sure, what do you need?</reply>
+		<reply ans="4">No thanks!</reply>
+	</Question>
+	<Question id="3" ans="5" auto="false" type="rep" txt="Zanks for your help!! Please find me %rep1%.">
+	    <reply ans="10">Can I ask you another question?</reply>
+		<reply ans="8">I will try to find this for you.</reply>
+	</Question>
+	<Response id="4" ans="5" >No problem.</Response>
+	<Response id="5" ans="6">Zee you next time!</Response>
+	<Response id="6" close="true"></Response>
+	<Response id="7" ans="6">The glue needs to be made from the precise ingredients for my work. It use one portion spring vater, den a touch of yeknom tears, den jellyfish jello, a portion volcanic ash, turtle droppings and den a last dash of jellyfish jello. Zanks!</Response>
+	<Response id="8" ans="6" >Zank you very much. I really reward you when you bring zis back to me.</Response>
+
+	<Question id="10" txt="OK! What is zis, friend?">
+	    <reply ans="7">How do I make this glue?</reply>
+		<reply ans="11">Where do I find these ingredients?</reply>
+		<reply ans="5">I've forgotten.</reply>
+	</Question>
+	<Response id="11" ans="5">Ze ingredients all come from the junkyard, not far from here.</Response>
+	
+	<Response id="15" ans="6" auto="false" type="rep">Oh zanks! I still need %rep1%.</Response>
+	<Response id="16" ans="6" auto="false" type="rep">Zat's almost everything! I only need za %rep1% now.</Response>
+	<Response id="17" ans="6" auto="false" type="rep">Zank you very much. That's everything I need now. In appreciation, I will give you zis %rep1%</Response>
+	<Response id="18" ans="6">I actually don't need zis.. But zank you for ze offer.</Response>
+	<Response id="19" ans="6">I am working on zis new cart. Zank you for all your help! Now we need to fix zis volcano.</Response>
+	
+	<obj id="9">a nail</obj>
+	<obj id="10">another nail</obj>
+	<obj id="11">a spare-wheel</obj>
+	<obj id="12">drill bit</obj>
+	<obj id="13">wrench</obj>
+	<obj id="14">bolt</obj>
+	<obj id="15">glue</obj>
+	
+	<reward id="20">helmet</reward>
+	
+</Conversation>

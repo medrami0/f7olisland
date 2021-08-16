@@ -1,0 +1,37 @@
+﻿<Conversation auto="true" characterName="حكيم القرية">
+	<Question txt='هلا عادي اشوف كسك ؟' id="1">
+		<reply ans="12">نعم</reply>
+		<reply ans="3">لا</reply>
+	</Question>
+	<Response id="3" ans="1" auto="false" type="action">دعنا نحاول مرة ثانية</Response>
+
+	<Question txt='حسنًا! هل أنت محارب؟ إن قبيلتك في حاجة إلى القتال' id="2">
+		<reply ans="4">نعم</reply>
+		<reply ans="5">لا</reply>
+	</Question>
+	<Response id="4" ans="6">سِرْ خلفي أسفل هذا الجسر لنحكم قبضتنا عليه إن وجدنا أشخاصا نتشاجر معهم</Response>
+	<Response id="5" ans="7">أنت جبان!</Response>
+	<Response id="6" ans="7">حظًّا سعيدًا!</Response>
+	<Response id="7" close="true"></Response>
+	
+	<Custom ans="8">هههههههههههههههههه وين رايح يكسمك؟</Custom>
+	<Question txt='إن زيارة أقوام آخرين محجوزة لأولئك الذين يظهرون معدنهم الأصيل' id="8">
+		<reply ans="9">ما الذي يتوجب عليّ فعله؟</reply>
+		<reply ans="10">هل ستقبل العملات؟</reply>
+	</Question>
+	<Response id="9" ans="6">أحاسيس وادعاءات إن قبيلتك هي هبتك، وهي في حاجة الآن إلى المعونة وها أنت ذا تريد تتجاهل ذلك هاهاهاها</Response>
+	<Question txt='هل سأقبل العملات؟ هاهاهاها من المؤكد أنني سأفعل ذلك! 50 سماكر هي السعر الذي أطلبه مقابل هذه الخدمة هذا هو اسمي، وبالتأكيد أريد هذه الأموال' id="10">
+		<reply ans="11" auto="false" type="bribe">بالتأكيد!</reply>
+		<reply ans="6">ليس ممكنًا</reply>
+	</Question>
+	<Response id="11" ans="11">لك مرور واحد مجانًا من فضلك انتظر حتى أحصي عملاتك المعدنية</Response>
+	<Question txt="ما الذي يدور في ذهنك؟" id="12">
+		<reply ans="8" auto="false" type="check">من فضلك، أرغب في زيارة القبائل الأخرى</reply>
+		<reply ans="2">إنني فقط أقوم بالاستكشاف هنا</reply>
+	</Question>
+	<Response id="13" ans="7">لقد أظهرت احترامك لقبيلتك، من خلال مساعدتك لهم من فضلك، قم بالمرور عليّ في أوقات فراغك</Response>
+	<Response id="14" ans="7">يبدو أنه ليست لديك عملة كافية اذهب الآن وأحضر لي بعضًا منها</Response>
+	<Response id="15" ans="7">أشكرك شكرًا جزيلاً ربما فقط يمكنك المرور ذات مرة إلى قبيلة أخرى، ويفضل أن تذهب الآن قبل أن أنسى</Response>
+	<Response id="15" ans="7">لقد سددت رسومك بالفعل والآن اذهب واتبع هذا الطريق إلى قبيلة أخرى، قبل أن أنسى</Response>
+	
+</Conversation>

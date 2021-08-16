@@ -1,0 +1,41 @@
+﻿<Conversation auto="true" characterName="ييلو">
+	
+	<Question txt='اسمي "يلو" من فضلك، هل رأيت المستكشفة "يمو"؟' id="1" auto="false" type="checkState">
+		<reply ans="2">نعم</reply>
+		<reply ans="3">لا</reply>
+	</Question>
+	<Response id="2" ans="4">لقد رحلت منذ وقت طويل، وكم أتمنى أن تكون بخير هل يمكنك البحث عنها وإعادتها إلى القرية مرة أخرى؟ </Response>
+	<Response id="3" ans="4">تحدّث إلى "يالا"؛ فهي صديقة "يمو" المقرّبة غالبًا ما تقوم بالتجول في أنحاء القرية </Response>
+	<Response id="4" close="true"></Response>
+	<Response id="5" ans="6">أخيرًا وجدت "يمو"! إنك شجاع حقًّا يا "يكنوم"! </Response>
+	<Question txt='لك واحدة من هاتين المكافئتين' id="6" >
+		<reply ans="7" auto="false" type="hat">استمتع بجائزتك</reply>
+		<reply ans="7" auto="false" type="coin">250 قطعة عملة حشرية</reply>
+	</Question>
+	<Response id="7" ans="4">استمتع بجائزتك</Response>
+	<Response id="8" ans="4">شكرًا لك على مساعدتك في إنقاذ "يمو"، وسوف نتذكرك دائمًا، وستظل عضوًا يحظى بافتخارهذه القبيلة</Response>
+	<Question id="9" txt="مرحبًا بك يا ‘يكنوم’ بماذا يمكنني مساعدتك؟">
+		<reply ans="10">ماذا تفعل هنا؟</reply>
+		<reply ans="1">إنني أرغب في مساعدتك </reply>
+		<reply ans="4">لا شيء مُطلقًا </reply>
+	</Question>
+	<Response id="10" ans="11">إننى معروف هنا بحكمتي، كما أنني أساعد في صنع الكثير من الأشياء، ومن ذلك أنني متخصّص في صنع المصابيح، حيث أشتهر في جميع أنحاء هذه الجزيرة بصنع المصابيح الجيدة والمُعمِّرة</Response>
+	<Question id="11" txt="ألست في حاجة إلى أي بطارية؟">
+		<reply ans="13">نعم، من فضلك أبلغني بما يجب عليَّ فعله</reply>
+		<reply ans="1">لا شكرًا لك</reply>
+		<reply ans="4">إلى اللقاء</reply>
+	</Question>
+	<Response id="12" ans="4">لا تقلق يا "يكنوم"، فأنا أحب صُنع الأشياء في أي وقت</Response>
+	<Response id="13" ans="4" auto="false" type="invitems">إنك تحتاج إلى مصباح أليس كذلك؟ أحضر لي هذه الأشياء، وسأصنع لك واحدًا! %rep1%</Response>
+	<Response id="14" ans="4">والآن، ها أنت لديك مصباح يا "يكنوم"</Response>
+	<Response id="15" ans="4">لديك كل ما تحتاج إليه يا "يكنوم" فقط، قم إعطني إياها</Response>
+	<Response id="16" ans="4">سوف أستخدم كل ذلك في صُنع هذا المصباح %rep1%</Response>
+	<Response id="17" ans="4">هذا كل ما أحتاج إليه لصُنع هذا المصباح ها هو يا "يكنوم"، استمتع به</Response>
+	<Response id="18" ans="4"> لن يساعدني ذلك في شيء يا "يكنوم"</Response>
+	<questitems>
+		<obj id="48">دعم المصباح</obj>
+		<obj id="49">شيء يُستخدم لثبيت المصباح في موضعه</obj>
+		<obj id="50">حاوية الشعلة</obj>
+		<obj id="51">وقود الشعلة</obj>
+	</questitems>
+</Conversation>

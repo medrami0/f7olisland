@@ -1,0 +1,19 @@
+﻿<Conversation auto="true" characterName="تاجر الأثاث">
+	<Question txt='مرحبًا بك في معرض قطع الأثاث الخاص بي ' id="1">
+		<reply ans="2">شكرًا جزيلاً </reply>
+	</Question>
+	<Question id="2" txt=''>
+			<reply ans="3">من فضلك، أريد شراء بعض قطع الأثاث</reply>
+			<reply ans="4">حدِّثني عن قبيلة "هو هو هلوا" </reply>
+			<reply ans="5">حدِّثني عن نفسك </reply>
+			<reply ans="6">إلى اللقاء </reply>
+	</Question>
+	<Response id="3" openstore="true" ans="2">بالتأكيد ألقِ نظرة على قطع الأثاث المعروض
+</Response>
+	<Response id="4" ans="2">سمعت أن الجوّ حارٌّ هناك</Response>
+	<Response id="5" ans="2">ماذا هنالك لأحكي لك عنه؟</Response>
+	<Response id="6" ans="7">وداعًا</Response>
+	<Response id="7" close="true"></Response>
+	<PurchaseResponse ans="2">شكرًا لك عُدْ مرة ثانية لمستودع الأثاث الكبير الخاص بي </PurchaseResponse>
+	<PurchaseResponse ans="2">شكرًا لك أتمنى أن تبقى قطع الأثاث في حالة جيدة لأطول فترة ممكنة </PurchaseResponse>
+</Conversation>

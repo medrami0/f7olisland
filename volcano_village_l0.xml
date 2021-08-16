@@ -1,0 +1,18 @@
+﻿<Conversation characterName="Tristan" auto="true">
+	<Question txt='Why hello there! What can I help you with ?' id="1">
+		<reply ans="2">What's your name ?</reply>
+		<reply ans="3">Tell me about this village</reply>
+		<reply ans="4">What do you do here ?</reply>
+		<reply ans="5">Bye</reply>
+	</Question>
+	<Response id="2" ans="1">My name is Tristan, the one and only clothing maker of the volcanic isle. 58 years now.</Response>
+	<Response id="3" ans="1">Fiery crowd, this is. Never get on the bad side of a huhuloa tribe member, that is my advice.</Response>
+	<Question id="4" txt='I work at the markets to earn my keep. Times are tough here since the Yeknom tribe came in here and claimed all our keep.'>
+			<reply ans="6">Could I buy some of your products ?</reply>
+			<reply ans="7">Tell me about the Yeknom tribe</reply>
+	</Question>
+	<Response id="5" close="true"></Response>
+	<Response id="6" ans="5" openstore="true" storetype="clothing">But of course. Please browse through my offerings..</Response>
+	<Response id="7" ans="1">Oh those tree huggers? Never really liked them. Although, I have met a few that are quite ok.</Response>
+	
+</Conversation>

@@ -1,0 +1,18 @@
+﻿<Conversation characterName="صانع الأسلحة" auto="true">
+	<Question auto="false" txt='أيها الغريب، ماذا تريد؟ ' id="1" >
+		<reply ans="2">مرحبًا، حدِّثني عن هذه القرية </reply>
+		<reply ans="3">أريد شراء بعض الأسلحة </reply>
+		<reply ans="4">أريد أن أتدرب على القتال </reply>
+		<reply ans="5">إلى اللقاء</reply>
+	</Question>
+	<Response id="2" ans="1">ليس لدي وقت لذلك قل لي إذن ما تريد، وسوف أفعله لك </Response>
+	<Response id="3" ans="5" openstore="true" storetype="weapons">أسلحة أسلحة تلبي رغبة القلوب من فضلك، افحص هذه المجموعة وخذ ما تريده إنها مضمونة للأبد</Response>
+	<Response id="4" ans="6">بالتأكيد، دعِ الألعاب تبدأ انطلق!</Response>
+	<Response id="5" close="true"></Response>
+	<Response id="6" opengame="true" ans="5"></Response>
+	<Response id="7" ans="5">أيها الغريب، أنا لن أتدخل، ولن أبيع أسلحة لأشخاص من قبائل أخرى</Response>
+	
+	<Game>
+		<type>battle-practice</type>
+	</Game>
+</Conversation>

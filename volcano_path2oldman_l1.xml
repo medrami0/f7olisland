@@ -1,0 +1,36 @@
+﻿<Conversation auto="true" characterName="الراعي">
+	<Question txt='تحياتي لك أيها الغريب هل ترغب في كوب من الحساء خلال سفرك' id="1">
+		<reply ans="2"> لا شكرًا لك</reply>
+	</Question>
+	<Question  id="2" txt="حسنًا! هذا مزيج بركاني قديم">
+		<reply ans="3">حدِّثني عن نفسك</reply>
+		<reply ans="4">ماذا تفعل هنا؟</reply>
+	</Question>
+	<Response id="3" ans="8" auto="false" type="consider">إنني رجل عجوز، وقد اعتدت العمل في مناجم الصخور السوداء، إلا أن ذلك أصبح شاقًّا علي منذ تعرضي للسقوط</Response>
+	<Question id="4" txt="إنني أحاول إنقاذ الكثير من الأغنام قدر جهدي، إلا أن الانفجارات تعيقنا وتقتل الكثير من أغنامنا من فضلك، ساعدنا في إنقاذ بعض الأغنام">
+		<reply ans="5">بكل تأكيد!</reply>
+		<reply ans="13">لا، شكرًا لك</reply>
+	</Question>
+	<Response id="5" ans="6" opengame="true">شكرًا جزيلاً على مساعدتك</Response>
+	<Response id="13" ans="6">اتفقنا من فضلك، إذا كنت تعرف أحدًا يمكنه المساعدة، فأخبرني بذلك</Response>
+	<Response id="6" close="true"></Response>
+	<Response id="7" ans="9">يا للعجب هذا أنت! لقد سمعت في أنحاء المدينة أنك ساعدت أناسًا كثيرين في المناجم</Response>
+	<Question id="8" txt="أحتاج بالتأكيد إلى المساعدة هنا لقد بدأت أصاب بالجنون ولا أستطيع مساعدة هذه الأغنام أكثر من ذلك" ans="3">
+		<reply ans="5">بالتأكيد!</reply>
+		<reply ans="13">لا، شكرًا لك</reply>
+	</Question>
+	<Question id="9" txt="لقد حدَّثوني كثيًرًا عنك وعن مساعدتك لهم">
+		<reply ans="10">دائمًا ما تسرني مساعدة ذوي الحاجة</reply>
+		<reply ans="11">عليهم جميعًا أن يفعلوا ذلك في المستقبل</reply>
+	</Question>
+	<Response id="10" auto="false" type="gift" ans="12">تقديرًا لك، فسوف أعطيك جائزة من مقتنياتي، وهي إحدى الصخور السوداء النادرة التي اعتنيت بها كثيرًا، وأدعوك إلى الاعتناء بها واستخدامها بحكمة</Response>
+	<Response id="11" ans="6">على المرء أن يكسب قوته ليبقى حيًّا!</Response>
+	<Response id="12" ans="6"> شكرًا لك يا صديقي</Response>
+	
+	<Game>
+		<gamename>huhu_sheepshelter</gamename>
+		<wingame ans="2">عجبًا! لا أصدق أنك استطعت إرشاد الكثيرين للعودة إلى موطنهم، وباعتقادي أنني أستطيع سماع المزيد</wingame>
+		<endgame ans="2">عدْ مرة ثانية وقتما تشاء! هذه الانفجارات مستمرة!</endgame>
+		
+	</Game>
+</Conversation>

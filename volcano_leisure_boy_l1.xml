@@ -1,0 +1,34 @@
+﻿<Conversation auto="true" characterName="مدير المنتجع">
+	<!--
+	<Question auto="false" txt="لقد تم تسخين حمامات البخار هذه من الطاقة الناجمة عن قلب البركان " id="1" >
+		<reply ans="2">أخبرني بالمزيد </reply>
+		<reply ans="3">هل هذا آمن؟ </reply>
+		<reply ans="4">إلى اللقاء</reply>
+	</Question>
+	<Response id="2" ans="1">حسنًا، فكلما كان أكثر سخونة، أصبح أفضل لا شيء يسعدنا قدر وجودنا في حمام البخار الساخن </Response>
+	<Response id="3" ans="1">بالطبع هو آمن، ماذا الذي تظن أنني أفعله هنا؟!</Response>
+	<Response id="4" close="true"></Response>
+	-->
+
+<Question auto="false" txt="لقد تم تسخين حمامات البخار هذه من الطاقة الناجمة عن قلب البركان " id="1" >
+		<reply ans="2">أخبرني بالمزيد </reply>
+		<reply ans="5">هل يمكنني ركوب الأنبوب؟</reply> 
+		<reply ans="3">هل هذا آمن؟ </reply>
+		<reply ans="4">إلى اللقاء</reply>
+		
+		
+	</Question>
+	<Response id="2" ans="1">حسنًا، فكلما كان أكثر سخونة، أصبح أفضل لا شيء يسعدنا قدر وجودنا في حمام البخار الساخن </Response>
+	<Response id="3" ans="1">بالطبع هو آمن، ماذا الذي تظن أنني أفعله هنا؟!</Response>
+	<Question txt='من فضلك، حدِّد نوع الاتفاق' id="5" >
+		<reply ans="6" auto="false" type="buy1" cost="1">دقيقتان مقابل 1 صخرة سوداء</reply>
+		<reply ans="6" auto="false" type="buy2" cost="2">ثلاث دقائق مقابل 2 صخرة سوداء</reply>
+		<reply ans="6" auto="false" type="buy3" cost="3">خمس دقائق مقابل 3 صخرة سوداء</reply>
+		<reply ans="4">موافق</reply>
+	</Question>
+	<Response id="4" close="true"></Response>
+	<Response id="5" ans="4">رائع يا صديقي! استمتع بيوم بركاني مثير</Response>
+	<Response id="6" ans="4">شكرًا لك. بمجرد أن يكون أحد الأنابيب متاحًا، اختر أنبوبًا واجلس داخله،  وسيبدأ وقتك المُحدد. استمتع يا صديقي بالاستشفاء لبعض الوقت</Response>
+	<Response id="7" ans="4">انتهى الوقت يا صديقي. من فضلك، أعد الأنبوب الخاص بك</Response>
+	<Response id="8" ans="4">تحتاج يا صديقي لبعض العملة قبل استئجار هذا الأنبوب</Response>
+	</Conversation>

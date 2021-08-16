@@ -1,0 +1,31 @@
+﻿<Conversation auto="true" characterName="ييم">
+	<Question txt='مرحبًا' id="1">
+		<reply ans="8">هل رأيت "يمو"؟</reply>
+		<reply ans="6">هل بإمكاني أخذ بعض ثمرات جوز الهند؟</reply>
+	</Question>
+	<Question id="2" ans="1" txt="يمكنك مساعدتي في ذلك">
+		<reply ans="3">سأساعدك في إنقاذ مزرعتك</reply>
+		<reply ans="4">إلى اللقاء</reply>
+	</Question>
+	<Response id="3" ans="5" opengame="true">شكرا لمساعدتك</Response>
+	<Response id="4" ans="5">إلى اللقاء</Response>
+	<Response id="5" close="true"></Response>
+	
+	<Response id="6" ans="7">تلك هي مزرعة جوز الهند الخاصة بي، وللأسف الشديد، يقوم القرد "دريد روبرت" بالتعدي عليها وتدميرها</Response>
+	<Response id="7" ans="2">نعم، ها هي بعض الثمار التي تركها بعد إسقاطها</Response>
+	<Response id="8" ans="9">.نعم، رأيت "يمو" منذ وقت قريب، حيث كانت متجهة نحو باب المعبد</Response>
+	<Question id="9" ans="1" txt="إنها تعتقد أن هناك أحجارًا كريمة بالداخل، ولا يعرف كثير من الناس كيف ">
+		<reply ans="4">شكرًا جزيلاً</reply>
+	</Question>
+	<Response id="10"></Response>
+	<Question txt='مرحبًا' id="11">
+		<reply ans="6">هل بإمكاني أخذ بعض ثمرات جوز الهند؟</reply>
+	</Question>
+
+	<Game>
+		<gamename>yek_coconut</gamename>
+		<wingame id="1" ans="4">إليك 10 ثمرات جوز هند مكافأة لك، وكنت أود أن أعطيك المزيد، إلا أنه لم يتبقَ لديَّ منها سوى القليل</wingame>
+		<endgame ans="2" id="1">عُدْ مرة أخرى وقتما تشاء</endgame>
+		<failgame ans="2">تبًّا لقد فقدت ثمرات جوز الهند</failgame>
+	</Game>
+</Conversation>

@@ -1,0 +1,25 @@
+﻿<Conversation auto="true" characterName="تاجر العملة">
+	<Response id="1" ans="2">أيها الغريب، ألا ترى أن الحياة في الغابة قاسية ومثيرة؟ </Response>
+	<Question txt='كيف حالك اليوم؟ ' id="2">
+		<reply ans="3">أنا بخير شكرًا لك</reply>
+		<reply ans="4">لست على ما يُرام</reply>
+	</Question>
+	<Response id="3" ans="5">رائع! فأنا سعيد لسماع ذلك</Response>
+	<Response id="4" ans="5">أمر غير جيد آمل أن تصبح أفضل عما قريب</Response>
+	<Question txt='بماذا يمكنني مساعدتك الآن؟' id="5">
+		<reply ans="7">أريد تغيير بعض النقود</reply>
+		<reply ans="9">هل لك أن تخبرني عن هذه القبيلة؟ </reply>
+		<reply ans="10">علىَّ أن أستمر في طريقي المبهج</reply>
+	</Question>
+	<Response id="6" close="true"></Response>
+	<Response id="7" currencyexchange="true" ans="11">اختر نوع العملة وحدِّد المبلغ، ثم اضغط "تغيير"</Response>
+	<ExchangeWait>من فضلك انتظر لحظة!</ExchangeWait>
+	<Response id="11" txt="شكرًا لك هل تريد إجراء عملية تغيير عملة مرة ثانية؟ ">
+		<reply ans="6">لا شكرًا</reply>
+		<reply ans="7">نعم من فضلك </reply>
+	</Response>
+	<Response id="8">لا شكرًا لك لا حاجة لي بعجائب الغابة؛ فالمال هو هدفي الأساسي</Response>
+	<Response id="9" ans="5">سكان الغابات يثيرون إعجابي دومًا، وعليَّ أن أعترف أنه لا يمكن أن أقضي وقتًا طويلاً بعيدًا عنها
+</Response>
+	<Response id="10" ans="6">تمنياتي برحلات سعيدة في غابة العجائب </Response>
+</Conversation>

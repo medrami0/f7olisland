@@ -1,0 +1,35 @@
+﻿<Conversation auto="true" characterName="Yokim">
+	<Question txt='Hello' id="1">
+		<reply ans="2">How can I help you?</reply>
+		<reply ans="6">Have you seen Yimo?</reply>
+		<reply ans="5">Bye</reply>
+	</Question>
+	<Question id="2" ans="1" txt="If you like, you could help me catch some fish.">
+		<reply ans="3">Let me help you fish.</reply>
+		<reply ans="4">Bye.</reply>
+	</Question>
+	<Response id="3" ans="5" opengame="true">Thanks for your help!!</Response>
+	<Response id="4" ans="5">Bye!</Response>
+	<Response id="5" close="true"></Response>
+
+	<Question id="6" txt="Yeah, I have seen Yimo. It was only a few days ago, she was very excited about something." auto="false" type="yimoq">
+		<reply ans="7">Yeah, anything else…?</reply>
+		<reply ans="4">Bye.</reply>
+	</Question>
+	<Response id="7" ans="2" auto="false" type="check">Why in such a hurry. Here help do some fishing first.</Response>
+	
+	<Quest id="8" ans="9">Well now that you mention it. She was in quite a hurry and kept on saying 'the myth is true, the myth is true'.</Quest>
+	<Question id="9" txt="I had no idea what she was going on about and that's the last I saw her.">
+		<reply ans="4">Okay thanks</reply>
+		<reply ans="10">Myth, what myth?</reply>
+	</Question>
+	<Response id="10" ans="4">I don't know . There are many myths that live on this island. Maybe you will find out if you find Yimo.</Response>
+	<Response id="11" ans="4">Thanks for rescuing Yimo. The tribe really appreciates your work.</Response>
+	
+	<Game>
+		<gamename>yek_fishing</gamename>
+		<wingame id="1" ans="6">Thanks for the help with the fishing.</wingame>
+		<endgame ans="4">Come back again anytime!</endgame>
+		<version>AS3</version>
+	</Game>
+</Conversation>

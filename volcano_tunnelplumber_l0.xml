@@ -1,0 +1,19 @@
+﻿<Conversation auto="true" characterName="Digger">
+	<Question txt="Hi! I've got a problem here with this leak." id="1">
+		<reply ans="2">What's the problem?</reply>
+		<reply ans="5">Oh. Good luck with it.</reply>
+	</Question>
+	<Question id="2" ans="1" txt="There is a leak I'm trying to plug. Could you give me a hand, please.">
+		<reply ans="3">OK.</reply>
+		<reply ans="5">Not really.</reply>
+	</Question>
+	<Response id="3" ans="6" opengame="true">Thank you.</Response>
+	<Response id="5" ans="6">That's fine!</Response>
+	<Response id="6" close="true"></Response>
+	
+	<Game>
+		<gamename>volcano_lavatube</gamename>
+		<wingame ans="2">Phew! Close call there. Ever since the Volcano started acting up pipes have been bursting all over the network. </wingame>
+		<endgame ans="2">Thanks for your help!</endgame>
+	</Game>
+</Conversation>

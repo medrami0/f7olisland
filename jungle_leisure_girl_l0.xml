@@ -1,0 +1,25 @@
+﻿<Conversation auto="true" characterName="Bubbles">
+
+	<Question txt="Hehehe, I'm Bubbles, isn't it a gorgeous day?" id="1">
+		<reply ans="2">Yes</reply>
+		<reply ans="2">No</reply>
+		<reply ans="3">Bye</reply>
+	</Question>
+	<Question id="2" ans="1" txt="Hehehe your funny! I think every day is gorgeous.">
+		<reply ans="4">Tell me about your store</reply>
+		<reply id="2" ans="6">I would like to buy a drink.</reply>
+	</Question>
+	<Question id="4" ans="1" txt="Well, we sell drinks of course, they make you happy, however some drinks help you in other areas.">
+	    <reply id="5" ans="6">Great, tell me what you have.</reply>
+		<reply id="7" ans="3">Ok, maybe next time.</reply>
+	</Question>
+	<Question id="6" txt="The Bubblelicios is 5 rocks, the Forest Fruits is 10 rocks and Bannana-Karma is 14 rocks">
+	    <reply id="9" ans="8" auto="false" type="buy1" cost="5">Bubblelicios</reply>
+		<reply id="10" ans="8" auto="false" type="buy2" cost="10">Forest Fruits</reply>
+		<reply id="11" ans="8" auto="false" type="buy3" cost="14">Bannana-Karma.</reply>
+	</Question>
+	<Response id="8" ans="3">Great Choice!</Response>
+	<Response id="3" close="true"></Response>
+	<Response id="9" ans="3">I'm sorry, you don't have enough currency for that.</Response>
+</Conversation>
+	

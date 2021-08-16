@@ -1,0 +1,26 @@
+﻿<Conversation auto="true" characterName="Yimo">
+	<Question txt='I cant hear you from here. Please help me get out!' id="1" auto="false" type="checkresponse">
+		<reply ans="2">How can I help?</reply>
+		<reply ans="4">Bye</reply>
+	</Question>
+	<Question id="2" txt="I am stuck here on this side of the drawbridge. Can you fix the drawbridge.">
+		<reply ans="3">I will fix the drawbridge</reply>
+		<reply ans="4">Bye</reply>
+	</Question>
+	<Response id="3" ans="4">Thanks for your help!!</Response>
+	<Response id="4" close="true"></Response>
+	<Question id="5" txt="Thanks you very much for rescuing me. Now lets get through this door.">
+		<reply ans="6">Don't you want to get out of here?</reply>
+		<reply ans="7">What door do you mean?</reply>
+	</Question>
+	<Response id="6" ans="4">No no, I came this far I need to find the ancient monkey gem. I cant do that until this puzzle is solved.</Response>
+	<Response id="7" ans="4">That big triangle looking door silly!</Response>
+	<Response id="8" ans="9" auto="false" type="dooropen">Finally the door is open! And its very dark inside. I am afraid of the dark.</Response>
+	<Question id="9" txt="Go on and see if you can find the green monkey gem.">
+		<reply ans="10">Okay I will have a look for your green monkey gem</reply>
+		<reply ans="11">Are you afraid of the dark?</reply>
+	</Question>
+	<Response id="10" ans="3">Great, go and have a look.</Response>
+	<Response id="11" ans="3">Yeah I have always been afraid of the dark</Response>
+	<Response id="12" ans="4" auto="false" type="solved">Oh MY! You actually found the Green Monkey Gem! You are a super help. Have this as a reward 250 bug coins.</Response>
+</Conversation>

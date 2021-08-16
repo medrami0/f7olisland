@@ -1,0 +1,30 @@
+﻿<Conversation auto="true" characterName="Tube Attendee">
+	<!--
+	<Question auto="false" txt='You look like your in desperate need of relaxation' id="1" >
+		<reply ans="2">What do you do here?</reply>
+		<reply ans="3">I would like to ride a tube.</reply>
+		<reply ans="4">Bye</reply>
+	</Question>
+	<Response id="2" ans="1">We specialise in creating Happiness. For a small fee, we make you feel better!</Response>
+	<Response id="3" ans="1">Please feel free to grab a tube. There are 3 tubes that you can use, the rest are under maintenance.</Response>
+	<Response id="4" close="true"></Response>
+	-->
+	
+	<Question auto="false" txt='You look like your in desperate need of relaxation' id="1" >
+		<reply ans="2">What do you do here?</reply>
+		<reply ans="3">I would like to ride a tube.</reply>
+		<reply ans="4">Bye</reply>
+	</Question>
+	<Response id="2" ans="1">We specialise in relaxation therapy. For a small fee, we make you feel better!</Response>
+	<Question txt='How long would you like on the tubes?' id="3" >
+		<reply ans="6" auto="false" type="buy1" cost="1">2 minutes for 1 bug</reply>
+		<reply ans="6" auto="false" type="buy2" cost="2">3 minutes for 2 bugs</reply>
+		<reply ans="6" auto="false" type="buy3" cost="3">5 minutes for 3 bugs</reply>
+		<reply ans="5">That's ok</reply>
+	</Question>
+	<Response id="4" close="true"></Response>
+	<Response id="5" ans="4">No problem. Have a nice day.</Response>
+	<Response id="6" ans="4">Please chose a tube when one is free and sit on it, and your time will start. Enjoy your relaxation.</Response>
+	<Response id="7" ans="4">Your time is now up on the tubes, please return your tube.</Response>
+	<Response id="8" ans="4">It looks like you can't afford that right now. You need to earn some credit first.</Response>
+</Conversation>

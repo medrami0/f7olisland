@@ -1,0 +1,13 @@
+﻿<Conversation auto="true" characterName="Currency Exchange">
+	<Question txt='Hello stranger.' id="1">
+		<reply ans="2">Do you come to me for business?</reply>
+		<reply ans="4">Bye</reply>
+	</Question>
+	<Question id="2" ans="1" txt="Are you after currency, then?">
+		<reply ans="3">Yes</reply>
+		<reply ans="1">No</reply>
+	</Question>
+	<Response id="3" ans="1" currencyexchange="true">How much be it?</Response>
+	<Response id="4" ans="5">Be gone, then!</Response>
+    <Response id="5" close="true"></Response>
+</Conversation>

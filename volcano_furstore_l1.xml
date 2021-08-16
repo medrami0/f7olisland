@@ -1,0 +1,20 @@
+﻿<Conversation auto="true" characterName="فرانسيز">
+	<Question txt='يا له من يوم سعيد! ما الذي جاء بك إلى هنا أيها الغريب؟' id="1">
+	  <reply ans="2">من فضلك، أريد شراء بعض الأثاث</reply>
+	  <reply ans="3">لقد جئت لمجرد الدردشة </reply>
+	</Question>
+	<Response id="2" openstore="true" ans="1">بالتأكيد ألقِ نظرة على هذا الكاتالوج (الدليل) </Response>
+	
+	<Question id="3" txt='سيدي، ما هو سؤالك؟'>
+		<reply ans="4">هل سمعت عن قبيلة "يكنوم" من قبل؟ </reply>
+		<reply ans="5">حدِّثني عن نفسك</reply>
+		<reply ans="6">الى اللقاء</reply>
+	</Question>
+	<Response id="4" ans="1">دعني لا أخوض في ذلك كثيرًا إن سعفة نخيل جوز الهند محببة للقردة، وعليها يدور العراك المثير</Response>
+	<Response id="5" ans="1">إنني أعيش وأعمل هنا، وقد أعدت بناء هذا المكان منذ 24 عامًا، بعد وقوع الانفجار العظيم، ولم أنظر أبدًا إلى الخلف </Response>
+	<Response id="6" ans="7">إلى اللقاء </Response>
+	<Response id="7" close="true"></Response>
+	
+	<PurchaseResponse ans="1">شكرًا جزيلاً لمنحي وقتك استمتع بالفاكهة </PurchaseResponse>
+	<PurchaseResponse ans="1">من فضلك، استمتع بوقتك</PurchaseResponse>
+</Conversation>

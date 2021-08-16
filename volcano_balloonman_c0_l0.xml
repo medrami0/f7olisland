@@ -1,0 +1,30 @@
+<Conversation auto="true" characterName="Ralph">
+	<Response id="1" ans="2">Hello, friend! Welcome to Cocolani Islands. I'm so glad you've come to help out the Huhuloa tribe.</Response>
+	<Question txt="Today, is your lucky day! To celebrate the launch of Cocolani, I'm giving away my special balloons. Would you like one?" id="2">
+		<reply ans="3">Yes, please!</reply>
+		<reply ans="4">No, thanks.</reply>
+		<reply ans="5">Maybe. Why are they so special?</reply>
+	</Question>
+	<Response id="4" ans="9">Your loss!</Response>
+	<Question txt='Balloons are a rare commodity on these islands. Also, a balloon will spice up your outfit. Better yet, you can swap and trade them with your friends. Would you like one?' id="5">
+		<reply ans="3">Okay then</reply>
+		<reply ans="6">Nope</reply>
+	</Question>	
+	<Response id="6" ans="9">No worries, then</Response>
+	<Question txt='Good choice! Now, what colour would you like?' id="3">
+		<reply ans="7" auto="false" type="red">Red</reply>
+		<reply ans="7" auto="false" type="purple">Purple</reply>
+		<reply ans="7" auto="false" type="pink">Pink</reply>
+		<reply ans="7" auto="false" type="cocolani">Cocolani Island</reply>
+	</Question>
+	<Response id="10" ans="9">I see you already have a balloon. Don't be greedy! Maybe you can swap your balloon with your buddies.</Response>
+	<Question txt="Great, here's your balloon! I have a secret. You seem like a trustworthy character. Would you like to know my secret?" id="7">
+		<reply ans="8">No, thanks</reply>
+		<reply ans="11">Sure!</reply> 
+	</Question>
+	<Response id="8" ans="9">Goodbye, then</Response>
+	<Question id="11" txt="Our ferocious Huhuloa tribe are defeating the Yeknom tribe. Keep up your great work!">
+		<reply ans="9">Okay, I'll try my best</reply>
+	</Question>	
+	<Response id="9" close="true"></Response>
+</Conversation>

@@ -1,0 +1,26 @@
+﻿<Conversation auto="true" characterName="يمو">
+	<Question txt='لا أستطيع سماعك أرجو أن تساعدني على الخروج من هنا ' id="1" auto="false" type="checkresponse">
+		<reply ans="2">كيف لي أن أساعدك؟</reply>
+		<reply ans="4">إلى اللقاء</reply>
+	</Question>
+	<Question id="2" txt="إنني محتجز هنا على هذا الجانب من الجسر، فهل بإمكانك إصلاحه؟ ">
+		<reply ans="3">سوف أقوم بإصلاحه</reply>
+		<reply ans="4">إلى اللقاء</reply>
+	</Question>
+	<Response id="3" ans="4">شكرًا على مساعدتك لي</Response>
+	<Response id="4" close="true"></Response>
+	<Question id="5" txt="شكرًا جزيلاً على إنقاذك لي، والآن دعنا ندخل عبر هذا الباب ">
+		<reply ans="6">ألا تريد الخروج من هنا؟ </reply>
+		<reply ans="7">أي باب تقصد؟ </reply>
+	</Question>
+	<Response id="6" ans="4">لا لا أنا أتيت من بعيد بحثًا عن جوهرة القرد القديمة، ولا يمكنني تحقيق ذلك إلا بعد حلِّ هذا اللغز </Response>
+	<Response id="7" ans="4">هذا المثلث الكبير يبدو سيئًا</Response>
+	<Response id="8" ans="9" auto="false" type="dooropen">أخيرًا تم فتح الباب! يا له من ظلام مخيف بالداخل!</Response>
+	<Question id="9" txt="هيّا، أدخل وابحث عن جوهرة القرد الخضراء ">
+		<reply ans="10">سأبحث لك عن جوهرة القرد الخضراء </reply>
+		<reply ans="11">هل تخاف من الظلام؟</reply>
+	</Question>
+	<Response id="10" ans="3">عظيم! سأذهب وألقي نظرة </Response>
+	<Response id="11" ans="3">نعم، فأنا دائمًا أخاف من الظلام</Response>
+	<Response id="12" ans="4" auto="false" type="solved">مدهش! لقد وجدت جوهرة القرد الخضراء! إنك مساعد ماهر حقًّا خذ هذا المبلغ (250 عملة معدنية) مكافأة لك</Response>
+</Conversation>

@@ -1,0 +1,49 @@
+﻿<Conversation auto="true" characterName="Yakk">
+	<Question txt='Hi, there' id="1">
+		<reply ans="3" auto="false" type="ingr">Hi, could I get a bag of berries?</reply>
+		<reply ans="2">Is that your beetle?</reply>
+	</Question>
+	<Response id="2" ans="18">Yes indeed. This is my trusty beetle carrier. We travel all over Yeknom together.</Response>
+	<Answer>
+		<possibility ans="8" id="1" auto="false" type="rep">My wife could do with the following ingrediants : A %rep1%. If you could find these for me, I will reward you in return.</possibility>
+		<possibility ans="8" id="2">Thank you for helping us out with the ingrediants. My wife is very happy.</possibility>
+	</Answer>
+	
+	<Task ans="3" auto="false" type="reward">Thanks for collecting those for me.  Here have 25 bug coins and a bag of berries.
+	</Task>
+	<Response id="3" ans="4">I don’t recall anyone called Yimo but I do remember a girl asking for extra coconut juice for an expedition.</Response>
+	<Question id="4" ans="5" txt="I am not sure what she was talking about. Haha">
+		<reply ans="1">Thank you</reply>
+	</Question>
+	<Response id="5" ans="6">I say, why not go to ask Yem. He owns the coconut farm around here.</Response>
+	<Response id="6" ans="7">I have run out of coconut juice.</Response>
+	<Question txt='Could you bring back 10 coconuts from Yem?' id="7">
+		<reply ans="8">Yeah I will get the coconuts</reply>
+		<reply ans="9">No thanks. I am only interested in finding Yimo</reply>
+	</Question>
+	<Response id="8" ans="10">Thanks you very much!</Response>
+	<Response id="9" ans="10">Oh well. It was worth a try.</Response>
+	
+	<Task id="1" ans="10">Thank you for those ! Here have 25 bug coins!</Task>
+	
+	<Response id="10" close="true"></Response>
+	
+	<Response id="11" ans="10">No thanks, I don't need one of those.</Response>
+	<Response id="12" ans="10">You have already given me that. Keep it! It's yours!</Response>
+	<Response id="13" ans="10">You have already given me one of those. Thanks anyway, I can do with another!</Response>
+	<Response id="14" ans="10">Thank you... For your help. I will give you a bag of berries and 25 coins.</Response>
+	<Response id="15" ans="10">Thank you for that.. You can keep the %rep1% though.</Response>
+	<Response id="16" ans="10">I nearly have everything I need! All I'd like now is %rep1%.</Response>
+	<Response id="17" ans="10">Thank you for that.. I still need a %rep1%.</Response>
+	
+	<Question txt='Since there is a lot of travelling to do, it is necessary for me.' id="18">
+		<reply ans="19">What do you do here?</reply>
+		<reply ans="20">Tell me about about the yeknom tribe?</reply>
+	</Question>
+	<Response id="19" ans="10">I work as a trader in my time. I travel the island here and exchange with foreigners from distant lands, and sell them onto the market.</Response>
+	<Response id="20" ans="21">This tribe is my birthplace. Since just before 5 years ago, we had the best track record in battle. </Response>
+	<Response id="21" ans="10">Now we are relying on our members to bring us back to our rightful position!</Response>
+	<Response id="22" ans="3">You where asking me about Yimo before..</Response>
+	<Response id="23" ans="10">Thank you for all your help with things around here. Your work is really appreciated.</Response>
+	<Response id="24" ans="10">I'm fine for coconuts now actually. Thanks anyway.</Response>
+</Conversation>

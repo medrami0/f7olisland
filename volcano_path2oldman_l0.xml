@@ -1,0 +1,36 @@
+﻿<Conversation auto="true" characterName="Shepherd">
+	<Question txt='Greetings, stranger.. Cup of soup for your wary travels?' id="1">
+		<reply ans="2">No thanks.</reply>
+	</Question>
+	<Question  id="2" txt="Huff, all right, it's an age old volcanic brew.">
+		<reply ans="3">Tell me about yourself.</reply>
+		<reply ans="4">What do you do here?</reply>
+	</Question>
+	<Response id="3" ans="8" auto="false" type="consider">I'm an old man.. I used to work in the mines here mining black rock but it got too much for me since my fall.</Response>
+	<Question id="4" txt="I try to save as many sheep as I can. The eruptions aren't helping and our sheep are getting killed. Please, if you will, help us save some sheep.">
+		<reply ans="5">Sure!</reply>
+		<reply ans="13">No thanks.</reply>
+	</Question>
+	<Response id="5" ans="6" opengame="true">Thanks for your help!!</Response>
+	<Response id="13" ans="6">Alright. If you know anybody that can help, let them know please.</Response>
+	<Response id="6" close="true"></Response>
+	<Response id="7" ans="9">Oh, it's you! You know, I've heard around town that you have been helping the folks out in the mines.</Response>
+	<Question id="8" txt="I could sure use some help around here. I'm getting all weary and can't help those sheep as much anymore." ans="3">
+		<reply ans="5">Sure!</reply>
+		<reply ans="13">No thanks.</reply>
+	</Question>
+	<Question id="9" txt="They have told me about you and the help that you have given them.">
+		<reply ans="10">It's always my pleasure to help those in need.</reply>
+		<reply ans="11">They should do it all on their own in future.</reply>
+	</Question>
+	<Response id="10" auto="false" type="gift" ans="12">In appreciation, I will give you one of my prizes possessions. One of the sacred black rocks I keep and look after. Please look after it and use it wisely.</Response>
+	<Response id="11" ans="6">One has to make a living!</Response>
+	<Response id="12" ans="6">Thank you, my friend.</Response>
+	
+	<Game>
+		<gamename>huhu_sheepshelter</gamename>
+		<wingame ans="2">Wow! I can't believe you managed to guide so many back home. I think I can still hear some more out there though.</wingame>
+		<endgame ans="2">Come back again anytime! These eruptions are continuing!</endgame>
+		
+	</Game>
+</Conversation>

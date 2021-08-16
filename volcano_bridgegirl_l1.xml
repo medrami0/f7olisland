@@ -1,0 +1,34 @@
+﻿<Conversation auto="true" characterName="ليندا">
+	<Question txt='أهلاً بك كيف حالك؟' id="1">
+		<reply ans="2">أنا بخير شكرًا لك</reply>
+		<reply ans="8">الى اللقاء</reply>
+	</Question>
+	<Question txt="جميل أن أسمع ذلك؛ فأنا أحب الناس السعداء ماذا بعد؟" id="2">
+		<reply ans="5">هل لك أن تحدِّثني عن هذه القبيلة؟</reply>
+		<reply ans="3">هل هناك شيء ما يمكنني مساعدتك في إنجازه؟</reply>
+		<reply ans="6">كنت أرغب فقط في الاطمئنان عليك</reply>
+	</Question>
+	
+	<Question id="3" ans="1" txt="هناك العديد من الألغام المنتشرة هنا، ونحتاج إلى انتزاعها، حيث لا يتوفر لنا في وجودها الحصول على مسكن آمن">
+		<reply ans="4">بالتأكيد</reply>
+		<reply ans="1">لا، شكرًا لك </reply>
+	</Question>
+	<Response id="4" ans="8" opengame="true">شكرًا جزيلاً أقدِّر لك ذلك كثيرًا</Response>
+	<Response id="5" ans="10">قبيلة "هو هو هلوا" هي موطني الذي لم أغادره أبدًا، ولا أشعر أبدًا أنني بحاجة لذلك، فأنا أحب كل ما فيها؛ الحر، والشجر، والناس </Response>
+	<Response id="6" ans="10">أنا بخير، إلا أنني مهتم قليلاً بضمان راحة للناس، في ظل وجود هذه الألغام المنتشرة حولهم </Response>
+	<Response id="7" ans="4"></Response>
+	<Response id="8" close="true"></Response>
+	<Response id="9" ans="8">إذن، استمتع برحلتك</Response>
+
+	<Question txt="هل هناك شيء آخر يمكنني مساعدتك في إنجازه؟" id="10">
+		<reply ans="5">هل لك أن تحدثني عن هذه القبيلة؟ </reply>
+		<reply ans="3">إذا كان هناك شيء يمكنني مساعدتك في إنجازه، فدعني أعرفه؟ </reply>
+		<reply ans="6">كنت فقط أرغب في الاطمئنان عليك</reply>
+	</Question>
+	
+	<Game>
+		<gamename>huhu_cactussearch</gamename>
+		<wingame ans="2">شكرا جزيلاً لك أيها المسافر الحكيم على جهدك ووقتك إنني انتظر عودتك ثانية وقتما تشاء</wingame>
+		<endgame ans="2">عُدْ ثانية وقتما تشاء</endgame>
+	</Game>
+</Conversation>

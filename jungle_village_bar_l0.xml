@@ -1,0 +1,37 @@
+﻿<Conversation auto="true" characterName="Brett">
+	
+	<Question txt="Hi, how's your day going?" id="1">
+		<reply ans="2">Very good thanks</reply>
+		<reply ans="3">Not all that well</reply>
+	</Question>
+	<Response id="2" ans="4">It is a lovely day out here. There's nowhere else I would like to be to be honest on a lovely day like this.</Response>
+	<Response id="3" ans="4">I'm sorry to hear that.. I hope that your day does pick up soon.</Response>
+	<Question txt="What can I help you with?" id="4">
+		<reply ans="5">That's what I would like to know, what do you do here?</reply>
+		<reply ans="6">Tell me about yourself?</reply>
+		<reply ans="7">Can you tell me a bit about this tribe?</reply>
+		<reply ans="16">Bye!</reply>
+	</Question>
+	<Response id="5" ans="9">I work at this juice stand here.. I have sold out of drinks, though. You could always try the juice stand at the leisure area for a fill if you need.</Response>
+	<Response id="6" ans="10">I just love working here.. It's so much fun, meeting lots and lots of colourful characters.. I do miss some of them though..</Response>
+	<Response id="7" ans="8">The rainforest is my home. I couldn't bare to live anywhere else. That volcano rumbles much too much for my liking. I went there once. Didn't like it.</Response>
+	<Response id="8" ans="13">I find the volcano tribe friendly enough. Once, though, I did meet a tribe member that I have never met before.</Response>
+	
+	<Question txt="They are usually better stocked with happyness drinks over there." id="9">
+		<reply ans="15">Where can I find this leisure area?</reply>
+		<reply ans="4">Thanks!</reply>
+		<reply ans="16">Bye.</reply>
+	</Question>
+	
+	<Question txt="There was a really knowledgeable huhuloa member I met a while ago. They knew a lot about the stars." id="10">
+		<reply ans="11">What happened to them?</reply>
+		<reply ans="4">Oh, I've met a few.</reply>
+		<reply ans="16">Bye.</reply>
+	</Question>
+	<Response id="11" ans="4">They where only here on a short vacation. They lived with their uncle on a distant side of the island, and is not permitted to visit here anymore. I hope that one day I will meet them again. I would like to learn more about the stars.</Response>
+	<Response id="12" ans="4">Thanks my friend.</Response>
+	<Response id="13" ans="14">They where from a tribe I have never ever heard of. They where in a hurry, though, and mentioned something about the great melt. They where carrying a block of ice with them.</Response>
+	<Response id="14" ans="4">I haven't seen them since. Look out for people carrying ice if you can, let me know if you seem them.</Response>
+	<Response id="15" ans="4">It's not too far away from here.. Follow the road to the left and around and you will find it.</Response>
+	<Response id="16" close="true"></Response>
+</Conversation>

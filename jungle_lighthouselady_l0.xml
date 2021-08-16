@@ -1,0 +1,21 @@
+﻿<Conversation auto="true" characterName="Yalla">
+	<Response id="1" ans="2">Hi there.</Response>
+	<Response id="2" ans="3" auto="false" type="statusChk"></Response>
+	<Response id="3" ans="5" auto="false" type="berryChk"></Response>
+	<Response id="4" ans="6">Why thankyou for your efforts. As a reward have 25 bug coins.</Response>
+	<Response id="5" close="true"></Response>
+	<Response id="6" ans="5">Last time that I saw Yimo, she was heading off on some type of quest.. She wouldn't tell me much more.</Response>
+	<Response id="7" ans="8">Oh you found Yimo! Please bring her back when you can. We miss her.</Response>
+	<Response id="8" auto="false" type="checkpie"></Response>
+	<Question id="9" txt="Could you get me a bag of berries off Yakk the trader. I don’t have  enough berries here for my berry pie.">
+		<reply ans="10">Sure</reply>
+		<reply ans="11">No</reply>
+	</Question>
+	<Response id="10" ans="5">Thank you so much. I will reward you for your help.</Response>
+	<Response id="11" ans="5">Not to worry, then.</Response>
+	<Response id="12" ans="5">Thank you so much for getting those berries for me. I'm just collecting some blueberries now and should be able to finish the pie.</Response>
+	<Response id="13" ans="8">Thank you so much for rescuiing Yimo. This tribe is forever grateful for your help.</Response>
+	<Response id="14" ans="5">Before I tell you when I saw her last go and get a bag of berries from Yakk the trader. I don’t have enough berries here for my berry pie.</Response>
+	<Response id="15" ans="3">Oh, Yimo is gone again. Hehe. Yimo thinks she is an explorer. Always coming back with strange stories.</Response>
+	<Response id="16" ans="5">Why thank you! Keep it though, I don't particularly need that.</Response>
+</Conversation>

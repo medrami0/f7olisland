@@ -1,0 +1,14 @@
+﻿<Conversation auto="true" characterName="Cabin Boy">
+	
+	<Question id="1" txt="It's not often we get strangers here...">
+		<reply ans="2">I need something from you.</reply>
+		<reply ans="3">I have something to offer you.</reply>
+		<reply ans="4">Bye</reply>
+	</Question>
+	<Response id="2" auto="false" type="showstore" ans="3">Everybody is always wanting something... Something for nothing... What do you have of value, I'm willing to exchange with you if you have something shiny?</Response>
+	<Response id="3" ans="7" auto="false" type="checkforexchange">What do you have to give me in exchange for nothing... You have nothing! Everybody is always wanting something... Just like that thieving seagull... Always stealing my fish, I'd do anything to get rid of it</Response>
+	<Response id="4" ans="7">You have something.. Something shiny. Is that a golden horn? I think it is... I hear it scares away birds when blown! If you use it to get rid of that seagull, I will give you scrap wood to repair the raft, absolutely for nothing!</Response>
+	<Response id="5" ans="7">Stranger, you have done me a huge favour... I will now meet my end of the bargain. Here is some scrap wood. It looks like you will need to find something to use as a sail. Best of luck!</Response>
+	<Response id="6" ans="7">I've already given you something from my store, traveller. I've been generous already. Find a way off the island. The captain can help you..</Response>
+	<Response id="7" close="true"></Response>
+</Conversation>

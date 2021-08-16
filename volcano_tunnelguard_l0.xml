@@ -1,0 +1,16 @@
+﻿<Conversation auto="true" characterName="Tunnel Guard">
+	<Question txt='Greetings' id="1">
+		<reply ans="2">Hi! I would like to pass through.</reply>
+		<reply ans="5">Bye</reply>
+	</Question>
+	<Question auto="false" id="2" ans="1" txt="To pass through into this tunnel, you will need a workers helmet, please.">
+		<reply ans="3">Where can I get one?</reply>
+		<reply ans="5">Oh, thanks.</reply>
+	</Question>
+	<Response id="3" ans="5">There's one somewhere around. Regulation helmets only are permitted.</Response>
+	<Response id="5" ans="6">Regulations are regulations!</Response>
+	<Response id="6" close="true"></Response>
+	
+	<Custom id="7" ans="2">I'm sorry, but you are not permitted to pass!</Custom>
+	<Custom id="8" ans="6">You are chief. Please feel free to pass without the customary helmet.</Custom>
+</Conversation>

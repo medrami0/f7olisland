@@ -1,0 +1,43 @@
+﻿<Conversation auto="true" characterName="الميكانيكي">
+	<Question txt='مرحبًا هل سمعت هذا البركان؟ إنه يصدر صوتًا مريعًا دون أن ينفجر' id="1">
+		<reply ans="2">نعم سمعته كيف لي أن أساعدك؟</reply>
+		<reply ans="5">إلى اللقاء</reply>
+	</Question>
+	<Question auto="false" type="checkProg" id="2" ans="1" txt="إنني أحاول إصلاح هذه العربة، وأحتاج إلى بعض الأشياء القليلة، فهل تساعدني في ذلك؟">
+		<reply ans="3">بالتأكيد ما الذي تحتاج إليه؟</reply>
+		<reply ans="4"> لا شكرًا لك</reply>
+	</Question>
+	<Question id="3" ans="5" auto="false" type="rep" txt="شكرًا لك على مساعدتك من فضلك ابحث لي عن %rep1%">
+	    <reply ans="10">هل يمكنني أن أوجه لك سؤالاً آخر</reply>
+		<reply ans="8">سأحاول أن أعثر لك على ذلك</reply>
+	</Question>
+	<Response id="4" ans="5" >ليست هناك مشكلة</Response>
+	<Response id="5" ans="6"> أراك في المرة القادمة</Response>
+	<Response id="6" close="true"></Response>
+	<Response id="7" ans="6">يُصنع الغراء من مكونات محدّدة، حيث يحتاج ذلك إلى مقدار من مياه الينابيع، وذرات من دموع يكنوم ثم جيلي قنديل البحر ومقدار من الرماد البركاني وفضلات السلاحف ثم مقدار إضافي من جيلي قنديل البحر شكرا</Response>
+	<Response id="8" ans="6" >شكرًا جزيلاً سأكافئك بالفعل عندما تعيد ذلك إليَّ مرة أخرى</Response>
+
+	<Question id="10" txt="حسنًا! ما هذا يا صديقي؟">
+	    <reply ans="7">كيف لي أن أصنع هذا الغراء؟</reply>
+		<reply ans="11">وأين أجد هذه المكونات؟</reply>
+		<reply ans="5">إنني نسيت</reply>
+	</Question>
+	<Response id="11" ans="5">يمكن الحصول على كل هذه المكونات من موقع المخلفات غير البعيد عن هنا</Response>
+	
+	<Response id="15" ans="6" auto="false" type="rep">رائع شكرًا لك! إنني ما زلت أحتاج إلى %rep1%</Response>
+	<Response id="16" ans="6" auto="false" type="rep">هذا تقريبًا كل شيء! والآن، أنا أحتاج فقط إلى %rep1%</Response>
+	<Response id="17" ans="6" auto="false" type="rep">شكرًا جزيلاً لك، فهذا كل ما أحتاج إليه الآن، وتقديرًا لذلك، فسوف أعطيك %rep1%</Response>
+	<Response id="18" ans="6">إنني لست بحاجة إلى ذلك بالفعل، ولكني أشكرك على عرضك هذا</Response>
+	<Response id="19" ans="6">إنني أعمل على هذه العربة الجديدة شكرًا لك على مساعدتك لي والآن، نحن نحتاج إلى تحديد هذا البركان</Response>
+	
+	<obj id="9">مسمار</obj>
+	<obj id="10">مسمار آخر</obj>
+	<obj id="11">عجلة بديلة</obj>
+	<obj id="12">قطعة نسيج</obj>
+	<obj id="13">مفتاح حديدي</obj>
+	<obj id="14">صامولة</obj>
+	<obj id="15">غراء</obj>
+	
+	<reward id="20">خوذة</reward>
+	
+</Conversation>

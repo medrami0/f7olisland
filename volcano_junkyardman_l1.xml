@@ -1,0 +1,22 @@
+﻿<Conversation auto="true" characterName="جامع المخلفات">
+	<Question txt='ما الذي جاء بك إلى هنا يا "ألوها"؟ ' id="1">
+		<reply ans="2">كيف لي أن أساعدك؟ </reply>
+		<reply ans="5">الى اللقاء</reply>
+	</Question>
+	<Question id="2" ans="1" txt="يمكنك مساعدتي في فرز هذه التروس التي سأستعين بها، أو كن على راحتك، وألقِ نظرة على ما حولك وتجول">
+		<reply ans="3">سوف أساعدك في انتقاء التروس</reply>
+		<reply ans="4">سوف ألقي نظرة على المكان وأتجول</reply>
+		<reply ans="5">إلى اللقاء</reply>
+	</Question>
+	<Response id="3" ans="6" opengame="true">شكرًا لمساعدتك</Response>
+	<Response id="4" ans="6">ربما يكون كذلك إنه بقايا حطام أحدثه المخربون</Response>
+	<Response id="5" ans="6">وداعًا!</Response>
+	<Response id="6" close="true"></Response>
+
+	<Game>
+		<gamename>huhu_cogcalamity</gamename>
+		<wingame ans="2">شكرً جزيلاً أصبحت الأمور واضحة بالفعل يا للعجب! مزيد من التروس المكسورة! </wingame>
+		<endgame ans="2">عُدْ ثانية في أي وقت! أصبحت هذه التروس على وشك السقوط </endgame>
+		<version>AS3</version>
+	</Game>
+</Conversation>

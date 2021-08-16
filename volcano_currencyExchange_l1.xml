@@ -1,0 +1,13 @@
+﻿<Conversation auto="true" characterName="تاجرالعملة">
+	<Question txt='مرحبًا بك أيها الغريب' id="1">
+		<reply ans="2">هل أتيت إليّ قاصدًا التجارة؟ </reply>
+		<reply ans="4">إلى اللقاء</reply>
+	</Question>
+	<Question id="2" ans="1" txt="إذن، هل تريد عملة؟ ">
+		<reply ans="3">نعم </reply>
+		<reply ans="1">لا</reply>
+	</Question>
+	<Response id="3" ans="1" currencyexchange="true">كم تريد؟</Response>
+	<Response id="4" ans="5">إذن، ارحل الآن</Response>
+    <Response id="5" close="true"></Response>
+</Conversation>

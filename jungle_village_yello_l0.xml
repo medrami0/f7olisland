@@ -1,0 +1,41 @@
+﻿<Conversation auto="true" characterName="Yello">
+	
+	<Question txt='My name is Yello. Have you seen Yimo the explorer?' id="1" auto="false" type="checkState">
+		<reply ans="2">Yes</reply>
+		<reply ans="3">No</reply>
+	</Question>
+	<Response id="2" ans="4">She has been gone for ages and I wonder if she is safe. Can you find her and bring her back to the village?</Response>
+	<Response id="3" ans="4">Talk to Yalla, she is best friends with Yimo. She usually hangs around the village.</Response>
+	<Response id="4" close="true"></Response>
+	<Response id="5" ans="6">At last! You found Yimo. You are very courageous Yeknom.</Response>
+	<Question txt='Here have this one of these two rewards.' id="6" >
+		<reply ans="7" auto="false" type="hat">Special hat</reply>
+		<reply ans="7" auto="false" type="coin">250 bug coins</reply>
+	</Question>
+	<Response id="7" ans="4">Enjoy your prize, yeknom.</Response>
+	<Response id="8" ans="4">Thanks for your help with rescuing Yimo, you will always be remembered and are an honoured member of this tribe.</Response>
+	<Question id="9" txt="Hello there Yeknom. What can I help you with?">
+		<reply ans="10">What do you do here?</reply>
+		<reply ans="1">I'm interested in helping you.</reply>
+		<reply ans="4">Nothing really.</reply>
+	</Question>
+	<Response id="10" ans="11">I am known as the wise guy around here. I help make things. One of my specialities is making torches. I'm known all over the island for making good quality long lasting torches..</Response>
+	<Question id="11" txt="You wouldn't be needing any torches, would ya?">
+		<reply ans="13">Yes please, tell me what I need to do.</reply>
+		<reply ans="1">No thanks.</reply>
+		<reply ans="4">Goodbye.</reply>
+	</Question>
+	<Response id="12" ans="4">Not a worry, yeknom. I like making things. Any time!</Response>
+	<Response id="13" ans="4" auto="false" type="invitems">You need a torch, do ya.. Find me these things, and I'll make you one! %rep1%</Response>
+	<Response id="14" ans="4">You already have a torch, yeknom.</Response>
+	<Response id="15" ans="4">You already have everything you need, yeknom. Just pass them my way.</Response>
+	<Response id="16" ans="4">That'll make do for this torch. Now I just need %rep1%.</Response>
+	<Response id="17" ans="4">That'll everything I need for this torch. And here it is, enjoy it, yeknom.</Response>
+	<Response id="18" ans="4">That's not going to help me, yeknom.</Response>
+	<questitems>
+		<obj id="48">Support for the torch</obj>
+		<obj id="49">Something to hold the torch in place</obj>
+		<obj id="50">Container for the flame</obj>
+		<obj id="51">Flame fuel</obj>
+	</questitems>
+</Conversation>

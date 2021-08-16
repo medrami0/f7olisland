@@ -1,0 +1,19 @@
+﻿<Conversation auto="true" characterName="عنبر">
+	<Question txt='ما الذي أحضره لك؟' id="1"> 
+		<reply ans="2">ما الذي يجرى هنا؟ </reply> 
+		<reply ans="5">أريد شراء مشروب </reply> 
+		<reply ans="4">إلى اللقاء</reply> 
+	</Question> 
+	<Question id="2" ans="1" txt="لا شيء أفضل من عصير الصبّار هل ستشترى شيئًا ما؟"> 
+		<reply ans="5">نعم، بالتأكيد ماذا لديك؟ </reply> 
+		<reply ans="1">ربما في وقت آخر</reply> 
+	</Question> 
+	<Question id="5" ans="1" txt="سوجو وبيتر بـ 5، جذور قرمزية بـ 10، أظافر التنين بـ 14 صخرة سوداء">
+		<reply id="7" ans="6" auto="false" type="buy1" cost="5">سوجو وبيتر</reply> 
+		<reply id="8" ans="6" auto="false" type="buy2" cost="10">جذور قرمزية</reply> 
+		<reply id="9" ans="6" auto="false" type="buy3" cost="14">أظافر التنين</reply> 
+	</Question> 
+		<Response id="6" ans="4">استمتع بوقتك</Response> 
+		<Response id="4" close="true"></Response> 
+		<Response id="7" ans="4">أنا آسف جدًّا، فليس لديّ ما يكفي لشراء هذا المشروب</Response> 
+</Conversation>

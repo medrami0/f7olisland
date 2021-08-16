@@ -1,0 +1,16 @@
+﻿<Conversation auto="true" characterName="حارس النفق">
+	<Question txt='تحيَّاتي' id="1">
+		<reply ans="2">مرحبًا! أريد أن أمر إلى الداخل</reply>
+		<reply ans="5">إلى اللقاء</reply>
+	</Question>
+	<Question auto="false" id="2" ans="1" txt="من فضلك، إذا أردت المرور إلى الداخل، فلا بد أن ترتدي خوذة">
+		<reply ans="3">من أين يمكنني الحصول عليها؟</reply>
+		<reply ans="5">شكرًا لك</reply>
+	</Question>
+	<Response id="3" ans="5">ابحث عن واحدة فيما حولك</Response>
+	<Response id="5" ans="6">القواعد هي القواعد!</Response>
+	<Response id="6" close="true"></Response>
+	
+	<Custom ans="2" id="7">آسف، إنه غير مسموح لك بالمرور</Custom>
+	<Custom id="8" ans="6">إنك قائد، لذا تفضل بالمرور بدون الخوذة المعتادة</Custom>
+</Conversation>

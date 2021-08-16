@@ -1,0 +1,18 @@
+﻿<Conversation characterName="تريستان" auto="true">
+	<Question txt='مرحبًا! بماذا يمكنني مساعدتك؟' id="1">
+		<reply ans="2">ما اسمك؟</reply>
+		<reply ans="3">حدِّثني عن هذه القرية</reply>
+		<reply ans="4">ماذا تفعل هنا؟</reply>
+		<reply ans="5">إلى اللقاء</reply>
+	</Question>
+	<Response id="2" ans="1">اسمى "ترستان"، وأبلغ من العمر 58 عامًا، وأنا الوحيد الذي يصنع الثياب لسكان جزيرة البركان</Response>
+	<Response id="3" ans="1">يا لها من نيران ملتهبة! نصيحتي ألا تتقدَّم نحو الجانب السيئ من قبيلة "هو هو هلوا"</Response>
+	<Question id="4" txt='اننى اعمل في الأسواق لأكسب قوت يومي ؛ فقد أصبح الوقت عصيبا هنا منذ أن سيطرت قبيلة " يكنوم " على الأمر ، واستولت على كل مدخراتنا'>
+			<reply ans="6">هل يمكنني شراء بعض منتجاتك؟</reply>
+			<reply ans="7">هل لك أن تحدِّثني عن قبيلة "يوكنوم"؟</reply>
+	</Question>
+	<Response id="5" close="true"></Response>
+	<Response id="6" ans="5" openstore="true" storetype="clothing">بالطبع، تفضل بإلقاء نظرة على معروضاتي</Response>
+	<Response id="7" ans="1">أوه تلك هو غرز الشجرة؟ لا أحبهم حقا على الرغم من أني قابلت الجيد منهم وهو قليل</Response>
+	
+</Conversation>

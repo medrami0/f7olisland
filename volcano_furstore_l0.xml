@@ -1,0 +1,20 @@
+﻿<Conversation auto="true" characterName="Frances">
+	<Question txt='Good day, what brings you in here, stranger?' id="1">
+		<reply ans="2">I'd like to buy some furniture, please.</reply>
+		<reply ans="3">I've just come in for a chat.</reply>
+	</Question>
+	<Response id="2" openstore="true" ans="1">Sure, have a look through my catalogue!</Response>
+	
+	<Question id="3" txt='What is your question, sir.'>
+		<reply ans="4">Have you heard of the yeknom tribe?</reply>
+		<reply ans="5">Tell me about yourself.</reply>
+		<reply ans="6">Goodbye.</reply>
+	</Question>
+	<Response id="4" ans="1">Don't get me started on that lot! Coconut palm frond loving monkey people. To the battle, I say!</Response>
+	<Response id="5" ans="1">I've lived and worked here and rebuilt this place since the grand eruption 24 years ago. I've never looked back.</Response>
+	<Response id="6" ans="7">See you.</Response>
+	<Response id="7" close="true"></Response>
+	
+	<PurchaseResponse ans="1">Thank you for your time. Enjoy your new furniture.</PurchaseResponse>
+	<PurchaseResponse ans="1">Please, enjoy.</PurchaseResponse>
+</Conversation>

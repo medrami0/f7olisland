@@ -1,0 +1,18 @@
+﻿<Conversation auto="true" characterName="جامع المخلفات">
+	<Question txt='مرحبًا بك في ساحة المخلَّفات والخردة' id="1">
+		<reply ans="2">كيف يمكنني مساعدتك؟</reply>
+		<reply ans="4">إلى اللقاء</reply>
+	</Question>
+	<Question id="2" ans="1" txt="هل تود ممارسة إحدى الألعاب؟">
+		<reply ans="3">نعم</reply>
+		<reply ans="1">لا </reply>
+	</Question>
+	<Response id="3" ans="4" opengame="true">شكرًا لمساعدتك</Response>
+	<Response id="4" close="true"></Response>
+
+	<Game>
+		<gamename>huhu_hoverrace</gamename>
+		<wingame ans="2">أظن أنك عنيف بالفعل</wingame>
+		<endgame ans="2">عُدْ مرة ثانية وقتما تشاء</endgame>
+	</Game>
+</Conversation>

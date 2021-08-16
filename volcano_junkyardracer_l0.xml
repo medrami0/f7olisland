@@ -1,0 +1,18 @@
+﻿<Conversation auto="true" characterName="Junkyard guy">
+	<Question txt='Hi, welcome to the junkyard' id="1">
+		<reply ans="2">How can I help you?</reply>
+		<reply ans="4">Bye</reply>
+	</Question>
+	<Question id="2" ans="1" txt="Would you like to play a game?">
+		<reply ans="3">Yes</reply>
+		<reply ans="1">No</reply>
+	</Question>
+	<Response id="3" ans="4" opengame="true">Thanks for your help!!</Response>
+	<Response id="4" close="true"></Response>
+
+	<Game>
+		<gamename>huhu_hoverrace</gamename>
+		<wingame ans="2">Wow.. I guess you really are tough.</wingame>
+		<endgame ans="2">Come back again anytime!</endgame>
+	</Game>
+</Conversation>

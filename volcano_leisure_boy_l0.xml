@@ -1,0 +1,34 @@
+﻿<Conversation auto="true" characterName="Spa Manager">
+	
+	<!--<Question auto="false" txt="These Hot Spa's are heated by the heart of the Volcano" id="1" >
+		<reply ans="2">Tell me more</reply>
+		<reply ans="5">Can I ride a tube?</reply> 
+		<reply ans="3">Is it safe?</reply>
+		<reply ans="4">Bye</reply>
+	</Question>
+	<Response id="2" ans="1">Well the hotter the better... nothing makes us happier than a steaming hot tub.</Response>
+	<Response id="3" ans="1">Safe... Of course it's safe what kind of business do you think i'm running here!</Response>
+	<Response id="5" ans="1">Sure, go ahead and jump on! </Response>
+	<Response id="4" close="true"></Response>-->
+	
+	<Question auto="false" txt="These Hot Spa's are heated by the heart of the Volcano" id="1" >
+		<reply ans="2">Tell me more</reply>
+		<reply ans="5">Can I ride a tube?</reply> 
+		<reply ans="3">Is it safe?</reply>
+		<reply ans="4">Bye</reply>
+	</Question>
+	<Response id="2" ans="1">Well the hotter the better... nothing makes us happier than a steaming hot tub.</Response>
+	<Response id="3" ans="1">Safe... Of course it's safe what kind of business do you think i'm running here!</Response>
+	<Question txt='Please chose a deal:' id="5" >
+		<reply ans="6" auto="false" type="buy1" cost="1">2 minutes for 1 black rock</reply>
+		<reply ans="6" auto="false" type="buy2" cost="2">3 minutes for 2 black rocks</reply>
+		<reply ans="6" auto="false" type="buy3" cost="3">5 minutes for 3 black rocks</reply>
+		<reply ans="4">It's ok</reply>
+	</Question>
+	<Response id="4" close="true"></Response>
+	<Response id="5" ans="4">That's fine. Have a good volcanic day, my friend.</Response>
+	<Response id="6" ans="4">Thank you. Please chose a tube when one is free, and have a seat and your time will start. Enjoy some therapeutic time, my friend.</Response>
+	<Response id="7" ans="4">Time is up, my friend, please return your tube.</Response>
+	<Response id="8" ans="4">You need credit before you can rent out this tube, my friend.</Response>
+	
+</Conversation>

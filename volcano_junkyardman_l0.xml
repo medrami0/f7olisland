@@ -1,0 +1,22 @@
+﻿<Conversation auto="true" characterName="Junkyard guy">
+	<Question txt='Aloha. What brings you here?' id="1">
+		<reply ans="2">How can I help you?</reply>
+		<reply ans="5">Bye</reply>
+	</Question>
+	<Question id="2" ans="1" txt="You can help me sort out these cogs I need help with. Or feel free to look around.">
+		<reply ans="3">I'll help with the cogs.</reply>
+		<reply ans="4">I might just have a look around.</reply>
+		<reply ans="5">Bye.</reply>
+	</Question>
+	<Response id="3" ans="6" opengame="true">Thanks for your help!!</Response>
+	<Response id="4" ans="6" >Might as well. This is off to the wreckers.</Response>
+	<Response id="5" ans="6">Adios!</Response>
+	<Response id="6" close="true"></Response>
+
+	<Game>
+		<gamename>huhu_cogcalamity</gamename>
+		<wingame ans="2">Oh thank you, thank you. Things are looking up already! Oh no, more broken cogs!</wingame>
+		<endgame ans="2">Come back again anytime! These cogs have a tendency to fall out of place!</endgame>
+		<version>AS3</version>
+	</Game>
+</Conversation>

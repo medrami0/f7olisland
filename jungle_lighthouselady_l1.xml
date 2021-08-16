@@ -1,0 +1,21 @@
+﻿<Conversation auto="true" characterName="يالا">
+	<Response id="1" ans="2">أهلاً بك</Response>
+	<Response id="2" ans="3" auto="false" type="statusChk"></Response>
+	<Response id="3" ans="5" auto="false" type="berryChk"></Response>
+	<Response id="4" ans="6">نشكرك على جهودك الرائعة، ونكافئك على ذلك بهذا المبلغ النقدي (25 عملة معدنية) </Response>
+	<Response id="5" close="true"></Response>
+	<Response id="6" ans="5">عندما رأيت "يمو" آخر مرة، بدت وكأنها تبحث عن أمر ما، إلا أنها لم تخبرني الكثير عنه</Response>
+	<Response id="7" ans="8">هل وجدت "يمو" حقًّا؟! من فضلك، إذا استطعت، أعِدْها إلينا مرة ثانية؛ فنحن نفتقدها بشدة</Response>
+	<Response id="8" auto="false" type="checkpie"></Response>
+	<Question id="9" txt='أحضر لي حقيبة توت من متجر "ياك"؛ فليس لدي ثمار تكفي لعمل فطيرة التوت'>
+		<reply ans="10">بالتأكيد</reply>
+		<reply ans="11">للا</reply>
+	</Question>
+	<Response id="10" ans="5">شكرًا جزيلاً، ولسوف أكافئك على مساعدتك لي</Response>
+	<Response id="11" ans="5">لا تقلق! </Response>
+	<Response id="12" ans="5">شكرًا لك على إحضار ثمار التوت لقد جمعت بعض ثمار التوت الزرقاء، ويجب أن أنتهي من عمل الفطيرة </Response>
+	<Response id="13" ans="8">شكرًا لإنقاذك "يمو"، والقبيلة كلها ستظل دائمًا شاكرة لك ذلك</Response>
+	<Response id="14" ans="5"> قبل أن أخبرك عن رؤيتي لها أول مرة، وحصولي على التوت من متجر "ياك"، ليس لدي ثمار تكفي لعمل فطيرة التوت</Response>
+	<Response id="15" ans="3">يا للعجب! لقد رحلت "يمو" مرة أخرى! إنها تعتقد أنها مستكشفة، ودائمًا ما تعود إلينا بقصص غريبة ومثيرة</Response>
+	<Response id="16" ans="5">شكرًا لك احتفظ بذلك، فلست بحاجة إليه</Response>
+</Conversation>

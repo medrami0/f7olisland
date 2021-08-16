@@ -1,0 +1,15 @@
+﻿<Conversation characterName="Bostof" auto="false">
+	<Question txt='Why hello there! What can I help you with ?'>
+		<reply>What's your name ?</reply>
+		<reply>Tell me about this village</reply>
+		<reply>What do you do here ?</reply>
+		<reply>Bye</reply>
+	</Question>
+	<Answer>I am Bostof. Son of the great tribal leader Hernandez the Second. Pleased to meet you.</Answer>
+	<Answer>This village is my home, I would never live anywhere else. Personally, I think this is one of the better islands in the region. Best craftsmen in the area, in my opinion.</Answer>
+	<Question txt='I work at the markets to earn my keep. Times are tough here since the Huhuloa tribe came in here and claimed all our keep.'>
+			<reply>Could I buy some of your products ?</reply>
+			<reply>Tell me about the Huhuloa tribe</reply>
+			<Answer>I would rather not talk about that right now..</Answer>
+	</Question>	
+</Conversation>

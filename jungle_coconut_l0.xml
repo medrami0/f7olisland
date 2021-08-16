@@ -1,0 +1,31 @@
+﻿<Conversation auto="true" characterName="Yem2">
+	<Question txt='Hello' id="1">
+		<reply ans="8">Have you seen Yimo?</reply>
+		<reply ans="6">Can I have some coconuts?</reply>
+	</Question>
+	<Question id="2" ans="1" txt="You can help me with coconuts.">
+		<reply ans="3">I will help you save your farm.</reply>
+		<reply ans="4">Bye.</reply>
+	</Question>
+	<Response id="3" ans="5" opengame="true">Thanks for your help!!</Response>
+	<Response id="4" ans="5">Bye!</Response>
+	<Response id="5" close="true"></Response>
+	
+	<Response id="6" ans="7">This is my coconut farm but it has been overrun by Dread Robert monkey. He is ruining my coconut farm.</Response>
+	<Response id="7" ans="2">Yeah I have some coconuts left.</Response>
+	<Response id="8" ans="9">Yeah I saw Yimo not that long ago. She was heading up towards the temple door.</Response>
+	<Question id="9" ans="1" txt="She thinks the myth of a gem is inside. Not many people know how to get there.">
+		<reply ans="4">Okay thanks</reply>
+	</Question>
+	<Response id="10"></Response>
+	<Question txt='Hello' id="11">
+		<reply ans="6">Can I have some coconuts?</reply>
+	</Question>
+
+	<Game>
+		<gamename>yek_coconut</gamename>
+		<wingame id="1" ans="4">Yay, my coconuts have been saved. Here have 10 coconuts as a reward. I would give more but I only have a few left.</wingame>
+		<endgame ans="2" id="1">Come back again anytime!</endgame>
+		<failgame ans="2">Oh no I lost my coconuts.</failgame>
+	</Game>
+</Conversation>

@@ -1,0 +1,18 @@
+﻿<Conversation characterName="Weaponsmith" auto="true">
+	<Question auto="false" txt='Stranger, what is it you require, squire?' id="1" >
+		<reply ans="2">Hi. Tell me about this village?</reply>
+		<reply ans="3">I would like to buy some weapons.</reply>
+		<reply ans="4">I would like to practice battling.</reply>
+		<reply ans="5">Bye</reply>
+	</Question>
+	<Response id="2" ans="1">I have no time for this and that. Tell me what you want, and be done with it like that!</Response>
+	<Response id="3" ans="5" openstore="true" storetype="weapons">Weapons, weapons, to the hearts desire. Please browse my collection and take your pick. Guarenteed to last!.</Response>
+	<Response id="4" ans="6">Sure, let the games commence. Let's go!..</Response>
+	<Response id="5" close="true"></Response>
+	<Response id="6" opengame="true" ans="5"></Response>
+	<Response id="7" ans="5">Stranger, I do not meddle with, or sell weapons to members of other tribes. Now, vamoo!</Response>
+	
+	<Game>
+		<type>battle-practice</type>
+	</Game>
+</Conversation>

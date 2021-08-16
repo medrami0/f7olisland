@@ -1,0 +1,30 @@
+<Conversation auto="true" characterName="Ralph">
+	<Response id="1" ans="2">مرحبا صديقي ! أهلا بك في " جزر كوكولانى " . اننى سعيد جدا لقدومك من أجل مساعدة قبيلة " هوهولوا "</Response>
+	<Question txt="اليوم يوم حظك ! احتفالاً بإطلاق جزر كوكولانى  ، فاننى أتنازل عن بالوناتي الخاصة . هل تريد واحداً" id="2">
+		<reply ans="3">نعم، من فضلك</reply>
+		<reply ans="4">لا، شكرًا لك</reply>
+		<reply ans="5">ربما. لماذا هي خاصة جدًّا ومميزة؟</reply>
+	</Question>
+	<Response id="4" ans="9">هذه خسارة لك</Response>
+	<Question txt='البالونات سلعة نادرة بهذه الجزر، وهي تساعد في جعلك مميزا، كما يمكنك مبادلتها مع أصدقائك. هل تود أخذ بالون؟' id="5">
+		<reply ans="3">موافق</reply>
+		<reply ans="6">كلا</reply>
+	</Question>	
+	<Response id="6" ans="9">لا تقلق</Response>
+	<Question txt='اختيار جيد! والآن، ما اللون الذي تفضله؟' id="3">
+		<reply ans="7" auto="false" type="blue">أزرق</reply>
+		<reply ans="7" auto="false" type="yellow">أصفر</reply>
+		<reply ans="7" auto="false" type="green">أخضر</reply>
+		<reply ans="7" auto="false" type="cocolani">جزر كوكولاني</reply>
+	</Question>
+	<Response id="10" ans="9">أرى أنك معك بالون بالفعل. لا تكن طماعًا! ربما يمكنك مبادلة بالونك مع أصدقائك.</Response>
+	<Question txt='رائع! هممم.. لدي سر، ويبدو أنك شخص جدير بالثقة. هل تود معرفة سري؟' id="7">
+		<reply ans="8">لا، شكرًا لك</reply>
+		<reply ans="11">بالتأكيد</reply> 
+	</Question>
+	<Response id="8" ans="9">إلى اللقاء</Response>
+	<Question id="11" txt='قبيلتنا القوية هوهولوا تهزم قبيلة يكنوم. واصل عملك الرائع'>
+		<reply ans="9">موافق. سوف أبذل كل جهدي</reply>
+	</Question>	
+	<Response id="9" close="true"></Response>
+</Conversation>

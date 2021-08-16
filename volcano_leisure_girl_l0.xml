@@ -1,0 +1,20 @@
+﻿<Conversation auto="true" characterName="Amber">
+	
+	<Question txt='What can I get you' id="1">
+		<reply ans="2">What goes on here?</reply>
+		<reply ans="5">I would like to buy a drink.</reply>
+		<reply ans="4">Bye</reply>
+	</Question>
+	<Question id="2" ans="1" txt="Cactus Juice, there's nothing better. Enough chit-chat, are you going to buy somthing or what?">
+	    <reply ans="5">Yeah, sure... what do you have?</reply>
+		<reply ans="1">Umm.. perhaps another time.</reply>
+	</Question>
+	<Question id="5" ans="1" txt="Sojo and Bitters is 5, Purple Root is 10, Dragon's Elixer is 14 black rocks">
+	    <reply id="7" ans="6" auto="false" type="buy1" cost="5">Sojo and Bitters</reply>
+		<reply id="8" ans="6" auto="false" type="buy2" cost="10">Purple Root</reply>
+		<reply id="9" ans="6" auto="false" type="buy3" cost="14">Dragon's Elixer</reply>
+	</Question>
+	<Response id="6" ans="4">Enjoy!</Response>
+	<Response id="4" close="true"></Response>
+	<Response id="7" ans="4">I'm sorry, you don't have enough for that drink.</Response>
+</Conversation>

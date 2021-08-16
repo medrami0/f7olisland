@@ -1,0 +1,20 @@
+﻿<Conversation characterName="أحمد" auto="true">
+	<Question txt='مرحبًا رفيقي المسافر ' id="1">
+		<reply ans="2">ما اسمك؟ </reply>
+		<reply ans="3">هل لك أن تحدِّثنى عن هذه القرية؟</reply>
+		<reply ans="5"> إلى اللقاء </reply>
+	</Question>
+	<Response id="2" ans="1">أنا أحمد، أتمتع بخبرة كبيرة، وأعرف الكثير من أسرار القبيلة البركانية، وبإمكاني مساعدة المفقودين</Response>
+	<Response id="3" ans="4" auto="false" type="checkStatus">لقد ثار البركان مؤخرًا بقوة، وأصبحت المنطقة مغلقة ومحظورة، وها نحن نبحث عن بطل يستطيع استكشاف المكان قبل أن يثور مجددًا </Response>
+	<Response id="4" ans="6">إذا استطعت الوصول إلى القمة، فسوف تكون العضو المُحتفى به من جانب القبيلة </Response>
+	<Response id="5" close="true"></Response>
+	<Response id="6" ans="7">قيل لي إن هناك أجزاءً مفقودة من اللغز أعلى قمة البركان، وإذا ما وجدتها، فسوف تستطيع مساعدتنا </Response>
+	<Response id="7" ans="5">أتمنى أن يحالفك الحظ وتنجح في تثبيتها إننا نأمل في العثور على شخص شجاع يستطيع مساعدتنا، لكننا لم نجده حتى الآن </Response>
+	<Response id="8" ans="9">حسنا أيها المغامر، لقد أنقذتنا من كارثة محتملة! أرجو أن تتقبل مكافأتي لك </Response>
+	<Question txt="ماذا تفضل كمكافأة لك؟ " id="9">
+		<reply ans="10" auto="false" type="hat">قبعة خاصة</reply>
+		<reply ans="10" auto="false" type="coin">250 قطعة معدنية من الصخر الأسود</reply>
+	</Question>
+	<Response id="10" ans="11">هنيئًا لك استمتع بجائزتك! </Response>
+	<Response id="11" ans="5">نحن جميعًا ممتنُّون لك على مجهودك الرائع لمنع هذه الكارثة حقًّا، أنت محل فخر القبيلة </Response>
+</Conversation>

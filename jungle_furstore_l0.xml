@@ -1,0 +1,18 @@
+﻿<Conversation auto="true" characterName="Furniture Guy">
+	<Question txt='Hi. Welcome to my furniture shop' id="1">
+		<reply ans="2">Thanks!</reply>
+	</Question>
+	<Question id="2" txt='Hmm?'>
+			<reply ans="3">I'd like to buy some furniture, please.</reply>
+			<reply ans="4">Tell me about the Huhuloa tribe</reply>
+			<reply ans="5">Tell me about yourself</reply>
+			<reply ans="6">Goodbye</reply>
+	</Question>
+	<Response id="3" openstore="true" ans="2">Sure, have a look through what I have on offer!</Response>
+	<Response id="4" ans="2">I've heard it's hot there.</Response>
+	<Response id="5" ans="2">What's there to tell?</Response>
+	<Response id="6" ans="7">Farewell!</Response>
+	<Response id="7" close="true"></Response>
+	<PurchaseResponse ans="2">Thanks for the business. Come again to my great furniture warehouse!</PurchaseResponse>
+	<PurchaseResponse ans="2">Thank you. May your furniture last a very long time!</PurchaseResponse>
+</Conversation>

@@ -1,0 +1,19 @@
+﻿<Conversation auto="true" characterName="عامل الحفر">
+	<Question txt="مرحبًا! إنني أعاني من مشكلة تسرُّب هنا" id="1">
+		<reply ans="2">ما هي المشكلة؟</reply>
+		<reply ans="5">حظ موفق</reply>
+	</Question>
+	<Question id="2" ans="1" txt="من فضلك، هناك تسرب أحاول منعه، فهل يمكنك مساعدتي في ذلك">
+		<reply ans="3">حسنًا</reply>
+		<reply ans="5">ليس كذلك فعلاً</reply>
+	</Question>
+	<Response id="3" ans="6" opengame="true">شكرًا لك</Response>
+	<Response id="5" ans="6">أمر طيب</Response>
+	<Response id="6" close="true"></Response>
+	
+	<Game>
+		<gamename>volcano_lavatube</gamename>
+		<wingame ans="2">طلب إغلاق لهذا المكان بمجرد أن يبدأ البركان ثورته، فإن كل أنابيب الشبكة سوف تنفجر</wingame>
+		<endgame ans="2">شكرًا جزيلاً على مساعدتك</endgame>
+	</Game>
+</Conversation>

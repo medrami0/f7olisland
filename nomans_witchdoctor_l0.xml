@@ -1,0 +1,37 @@
+﻿<Conversation auto="true" characterName="Witchdoctor">
+	<Question txt='Miracles.. You see miracles ?' id="1">
+		<reply ans="12">Yes</reply>
+		<reply ans="3">No</reply>
+	</Question>
+	<Response id="3" ans="1" auto="false" type="action">.. Let's try again.</Response>
+
+	<Question txt='That is good. Do you battle? Your tribe needs to battle!' id="2">
+		<reply ans="4">Yes</reply>
+		<reply ans="5">No</reply>
+	</Question>
+	<Response id="4" ans="6">Walk straight down that bridge behind me to duke it out when you find people to play with.</Response>
+	<Response id="5" ans="7">You're a sissy!</Response>
+	<Response id="6" ans="7">Good luck!</Response>
+	<Response id="7" close="true"></Response>
+	
+	<Custom ans="8">You! You are not ready to visit there.. Do some deeds for your own tribe! Or stay a nobody forever hahahaha!</Custom>
+	<Question txt='Visiting other nations is reserved for those who show their metal..' id="8">
+		<reply ans="9">What do I have to do?</reply>
+		<reply ans="10">Will you accept currency?</reply>
+	</Question>
+	<Response id="9" ans="6">Senses, pretenses. Your tribe is your gift. Your tribe is in need and here you are, wanting to waltz on through. Hahahahhaha.</Response>
+	<Question txt='Will I accept currency? hahahah! I sure do! 50 smackers, is my asking price, that is my name, and I will it thrice!' id="10">
+		<reply ans="11" auto="false" type="bribe">Sure!</reply>
+		<reply ans="6">No way!</reply>
+	</Question>
+	<Response id="11" ans="11">One free pass coming up.. Please wait while I count your coins..</Response>
+	<Question txt="What's on your mind?" id="12">
+		<reply ans="8" auto="false" type="check">I would like to visit the other tribe, please.</reply>
+		<reply ans="2">I'm just exploring here.</reply>
+	</Question>
+	<Response id="13" ans="7">You have shown your tribe respect by helping them out. Please, pass through at your leisure.</Response>
+	<Response id="14" ans="7">It looks like you don't have enough currency. Now skedaddle and go and make me some.</Response>
+	<Response id="15" ans="7">Thank you very much. You may only pass through once to the other tribe, so best, go now, before I forget.</Response>
+	<Response id="15" ans="7">You have paid your bribe already.. Now go, follow the road to the other tribe, before I forget!</Response>
+	
+</Conversation>

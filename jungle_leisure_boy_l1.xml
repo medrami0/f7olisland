@@ -1,0 +1,33 @@
+﻿<Conversation auto="true" characterName="المنقذ">
+	<!--
+	<Question auto="false" txt='إنك تبدو في أمس الحاجة إلى الاسترخاء' id="1" >
+		<reply ans="2">ماذا تفعل هنا؟ </reply>
+		<reply ans="3">أريد تركيب هذه الأسطوانة </reply>
+		<reply ans="4">إلى اللقاء</reply>
+	</Question>
+	<Response id="2" ans="1">نحن متخصصون في جلب السعادة للناس، ومقابل رسوم بسيطة، نجعلك تشعر بتحسن</Response>
+	<Response id="3" ans="1">لرجاءً، لا تتردد في جذب الأسطوانة. توجد 3 أسطوانات يمكن استخدامها، أما البقية فتخضع للصيانة</Response>
+	<Response id="4" close="true"></Response>
+	<Response id="5" ans="5">نعم</Response>
+	<Response id="6" ans="6">لا</Response>
+</Conversation>
+-->
+
+<Question auto="false" txt='إنك تبدو في أمس الحاجة إلى الاسترخاء' id="1" >
+		<reply ans="2">ماذا تفعل هنا؟ </reply>
+		<reply ans="3">أريد تركيب هذه الأسطوانة </reply>
+		<reply ans="4">إلى اللقاء</reply>
+	</Question>
+	<Response id="2" ans="1">نحن متخصصون في جلب السعادة للناس، ومقابل رسوم بسيطة، نجعلك تشعر بتحسن</Response>
+	<Question txt='كم من الوقت ترغب في البقاء داخل الأنبوب؟' id="3" >
+		<reply ans="6" auto="false" type="buy1" cost="1">دقيقتان مقابل 1 باجز</reply>
+		<reply ans="6" auto="false" type="buy2" cost="2">ثلاث دقائق مقابل 2 باجز</reply>
+		<reply ans="6" auto="false" type="buy3" cost="3">خمس دقائق مقابل 3 باجز</reply>
+		<reply ans="5">موافق</reply>
+	</Question>
+	<Response id="4" close="true"></Response>
+	<Response id="5" ans="4">ليست هناك مشكلة. استمتع بيومك</Response>
+	<Response id="6" ans="4">من فضلك، بمجرد أن يكون أحد الأنابيب متاحًا، اختر أنبوبًا واجلس داخله،  وسيبدأ وقتك المُحدد. هيّا، استمتع بالاسترخاء</Response>
+	<Response id="7" ans="4">انتهى وقتك داخل الأنبوب. من فضلك، أعد الأنبوب الخاص بك</Response>
+	<Response id="8" ans="4">يبدو أنه لا يمكنك التمتُّع بذلك الحق الآن. أنت في حاجة إلى الحصول على بعض العملة أولاً</Response>
+</Conversation>

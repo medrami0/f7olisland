@@ -1,0 +1,35 @@
+﻿<Conversation auto="true" characterName="يوكم">
+	<Question txt='أهلاً بك' id="1">
+		<reply ans="2">هل يمكنني مساعدتك؟</reply>
+		<reply ans="6">هل رايت "يمو"؟</reply>
+		<reply ans="5">إلى اللقاء</reply>
+	</Question>
+	<Question id="2" ans="1" txt="إذا أحببت، فبإمكانك مساعدتي في صيد بعض الأسماك ">
+		<reply ans="3">اسمح لي بمساعدتك في صيد الأسماك </reply>
+		<reply ans="4">إلى اللقاء</reply>
+	</Question>
+	<Response id="3" ans="5" opengame="true">شكرًا جزيلاً لمساعدتك!</Response>
+	<Response id="4" ans="5">إلى اللقاء</Response>
+	<Response id="5" close="true"></Response>
+
+	<Question id="6" txt='لقد رأيت "يمو" منذ أيام قليلة، وكانت مشغولة ومتحمسة لأمر ما'>
+		<reply ans="7">هل ترغب في شيء أخر؟</reply>
+		<reply ans="4">إلى اللقاء</reply>
+	</Question>
+	<Response id="7" ans="2" auto="false" type="check">لماذا هذه العجلة؟ يمكننا صيد بعض الأسماك أولاً </Response>
+	
+	<Quest id="8" ans="9">حسنًا! لقد كانت في عجلة من أمرها، وظلّت تقول: "الأسطورة حقيقية! الأسطورة حقيقية!"</Quest>
+	<Question id="9" txt="ليس لديّ فكرة عما كانت تقوم به، وكانت تلك هي آخر مرة أراها فيها ">
+		<reply ans="4">شكرًا جزيلاً </reply>
+		<reply ans="10">أسطورة! ما الأسطورة؟ </reply>
+	</Question>
+	<Response id="10" ans="4">أنا لا أعرف هناك العديد من الأساطير على هذه الجزيرة، وربما تتعرف على بعضها عندما تجد "يمو" </Response>
+	<Response id="11" ans="4">شكرًا لإنقاذك "يمو" القبيلة كلها تقدر لك هذا العمل الرائع </Response>
+	
+	<Game>
+		<gamename>yek_fishing</gamename>
+		<wingame id="1" ans="6">شكرًا لمساعدتك لي في صيد الأسماك</wingame>
+		<endgame ans="4">يمكنك العودة مرة أخرى وقتما تشاء</endgame>
+		<version>AS3</version>
+	</Game>
+</Conversation>

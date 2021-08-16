@@ -1,0 +1,24 @@
+﻿<Conversation auto="true" characterName="Currency Guy">
+	<Response id="1" ans="2">Hey stranger.. Sharp day out here in the forests isn't it.</Response>
+	<Question txt='How are you doing today?' id="2">
+		<reply ans="3">I'm doing great thanks</reply>
+		<reply ans="4">Not that well</reply>
+	</Question>
+	<Response id="3" ans="5">That's wonderful to hear.</Response>
+	<Response id="4" ans="5">Oh that's not good. Hope you feel better soon!</Response>
+	<Question txt='What can I help you with today?' id="5">
+		<reply ans="7">I'd like to exchange some currency.</reply>
+		<reply ans="9">Can you tell me about this tribe?</reply>
+		<reply ans="10">I'm going to head on my merry way.</reply>
+	</Question>
+	<Response id="6" close="true"></Response>
+	<Response id="7" currencyexchange="true" ans="11">Select your currency type and amount, then press exchange.</Response>
+	<ExchangeWait>Please wait a moment..</ExchangeWait>
+	<Response id="11" txt="Thank you for doing business. Would you like to do another currency exchange?">
+		<reply ans="6">No thanks</reply>
+		<reply ans="7">Yes please</reply>
+	</Response>
+	<Response id="8">No thanks. I don't need anything from any jungle wonderers. My business is money.</Response>
+	<Response id="9" ans="5">Interesting bunch, these forest dwellers. I must say, I don't spend much time hanging out.</Response>
+	<Response id="10" ans="6">Happy travels, forest wonderer.</Response>
+</Conversation>

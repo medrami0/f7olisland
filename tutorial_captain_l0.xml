@@ -1,0 +1,43 @@
+﻿<Conversation auto="true" characterName="Captain Wallipo">
+	
+	<Response id="1" ans="2">I'm Captain Wallipo, but you can call me Captain!
+How you doin' matey? You seem to have washed up on this little island of mine.</Response>
+	<Response id="2" ans="3">I was stranded on this island a long time ago. My ship sank, so I salvaged what I could and now I call this island my home. Looks pretty neat doesn't it!</Response>
+	<Response id="3" ans="4">Have you heard about the legend of Cocolani Island? I have voyaged across this archipelago for decades in search of it. I've been to many different islands and have seen many amazing tribes but I'm still yet to see Cocolani Island</Response>
+	<Response id="4" ans="29" auto="false" type="showNext" showNext="false">Anyway that's enough about me, please, I would like to know more about you...</Response>
+	<Response id="5" ans="6">Wowee! You sound really interesting... I thought your tribal mask looked familiar. I've actually visited your tribe many times before.</Response>
+	<Response id="6" ans="7" auto="false" type="showNext" showNext="false">Let's be buddies, this way we can give each other items, and chat any time we like!</Response>
+	<Response id="7" ans="8">Great Matey! We are now buddies.</Response>
+	<Response id="8" ans="9" showNext="false">Oh can I tell you something... I think it's best I tell you privately though.</Response>
+	<Response id="9" ans="10">Well off you go, I would get it myself except I can't seem to get by the debris. You look small and nimble, it should be a breeze for you.</Response>
+	<Response id="10" close="true"></Response>
+	<Response id="11" ans="12">You know what you've found, you've found some currency. This can be used to buy alot of things.  In my travels I've noticed each tribe usually has a different type of currency. What's interesting though, is you can trade the currency of one tribe for anothers.</Response>
+	<Question id="12" txt="Sorry I'm rambling... You must be starving, would you like to eat something?">
+		<reply ans="13">Yes</reply>
+		<reply ans="14">No.</reply>
+	</Question>
+	<Response id="13" ans="15">Great! I was hoping you would say that...</Response>
+	<Response id="14" ans="15">Really, you are not hungry... I'm starving! Well if you help me out then I will agree to help you get off this island.</Response>
+	<Response id="15" ans="29">See the hut over there, my cabin boy and I built it ourselves from scrap wood. He is always catching fresh fish for us. If you ask nicely, I'm sure he'll give you some fish.</Response>
+	<Response id="16" ans="17" auto="false" type="eatfish">Oh matey, how generous of you! You're really going to give me that fish!</Response>
+	<Response id="17" ans="18">I'm so happy, now my stomach is full... It's great to be happy, I've learnt that citizens of most tribes react better towards you if your happy!</Response>
+	<Response id="18" ans="19">Thanks, I can't express how happy I am. You know what.. I have this gold key, perhaps it can open something. I have no use for it, it's all yours matey! </Response>
+	
+	<Response id="19" ans="29" auto="false" type="showNext">Oh by the way, there's a raft over yonder, it is a bit damaged though. Feel free to repair it and come see me if you have any difficulties. Good Luck!</Response>
+	<Response id="20" ans="29">Have you started repairing the raft yet? I think I saw a paddle and some useful items on the beach somewhere. They might come in handy.</Response>
+	<Response id="21" ans="29">I see you have found the paddle. Though it looks like your raft is missing a few things. Come see me when you have it fixed. Drag the items for repair onto the boat.</Response>
+	<Response id="22" ans="29">I see you have found the paddle, awesome work matey! You will be able to find certain items which you can hold in one hand. Just like the paddle.</Response>
+	<Response id="23" ans="24">I've noticed from my visits to the islands that different tribes love to carry around a whole range of things. I think it is how they show their personality, or possibly it's an intimidation tactic. Did I mention that each tribe loves battling with rival tribes.</Response>
+	<Response id="24" ans="25">Yes, it's true! It can be very dangerous if you are inexperienced, or aren't carrying the appropriate weapons. Luckily there's a designated area where these battles occur. It's known as "The Battle Zone." </Response>
+	<Response id="25" ans="26">You will know it when you see it. It's is a small island on your map, which is located in between tribes, sort of like my little island, except a lot less peaceful.</Response>
+	<Response id="26" ans="28">All this talking of battling is getting me excited! It may not look like it but I used to be quite somthing when I was dressed in my battle armour. That's how I became a captain. I envy your youth, young matey.</Response>
+	<!--<Response id="27" ans="28">Before you depart, I would love to give you my captains hat... It's ok I have quite a few of these lying around. Please take it and try it on!</Response>-->
+	<Response id="28" ans="29" auto="false" type="showNext">I wish you a safe adventure matey! Don't forget to keep your oar in hand</Response>
+	<Response id="29" close="true"></Response>
+	<Response id="30" ans="29">The cabin boy might be able to help you. Speak to him he may able to help get you started.</Response>
+	<Response id="31" ans="29">I wish you a safe adventure matey! Don't forget to keep your oar in hand</Response>
+	<Response id="32" ans="29">Tell me a little bit about yourself.. If you need help, look at the instructions on the top of the screen.</Response>
+	<Response id="33" ans="29">Let's be buddies! Check the instructions for help on how we can become friends and stay in contact.</Response>
+	<Response id="34" ans="29">Try typing your username into the chat bar.</Response>
+	<!--<Response id="34" ans="29">So we can talk in private, read the instructions to see how we can chat in private.</Response>-->
+</Conversation>

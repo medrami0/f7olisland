@@ -1,0 +1,34 @@
+﻿<Conversation auto="true" characterName="Lynda">
+	<Question txt='Why hello. How di doo di?' id="1">
+		<reply ans="2">I'm doing great thanks.</reply>
+		<reply ans="8">Bye</reply>
+	</Question>
+	<Question txt="That's good to hear. I like happy people. What is it you're after?" id="2">
+		<reply ans="5">Can you tell me about this tribe?</reply>
+		<reply ans="3">Is there anything I can help you with?</reply>
+		<reply ans="6">I just wanted to check how you where doing!</reply>
+	</Question>
+	
+	<Question id="3" ans="1" txt="There are cactii scattered around and we need to clean them out.. We can't have a safe home with all these cactii to fall on.">
+		<reply ans="4">Sure</reply>
+		<reply ans="1">No thanks</reply>
+	</Question>
+	<Response id="4" ans="8" opengame="true">Thank you, that is much appreciated!!</Response>
+	<Response id="5" ans="10">This is my home, the huhuhloa tribe. I've never left here, and never felt the need to. I just love the heat, the ash and the people.</Response>
+	<Response id="6" ans="10">I'm alright, I'm just a little concerned about the welfare of our people with all these cactii about.</Response>
+	<Response id="7" ans="4"></Response>
+	<Response id="8" close="true"></Response>
+	<Response id="9" ans="8">Ok, enjoy your travels.</Response>
+
+	<Question txt="Is there anything else I can help you with?" id="10">
+		<reply ans="5">Can you tell me about this tribe?</reply>
+		<reply ans="3">If there is something I can help you with, can you let me know?</reply>
+		<reply ans="6">I just wanted to check how you where doing!</reply>
+	</Question>
+	
+	<Game>
+		<gamename>huhu_cactussearch</gamename>
+		<wingame ans="2">Thank you so much for your time and help, wise traveller. Come back any time!	</wingame>
+		<endgame ans="2">Come back again anytime!</endgame>
+	</Game>
+</Conversation>

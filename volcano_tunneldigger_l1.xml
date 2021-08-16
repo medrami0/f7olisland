@@ -1,0 +1,31 @@
+﻿<Conversation auto="true" characterName="عامل الحفر">
+	<Question txt='مرحبًا سيدي' id="1">
+		<reply ans="2">مرحبًا</reply>
+		<reply ans="5">إلى اللقاء</reply>
+	</Question>
+	<Question id="2" ans="1" txt='إنني مشغول جدًّا، ولم يكن الأمر كذلك فيما مضى، عندما كان العجوز "بيرت" عاملاً في هذا المنجم'>
+		<reply ans="3">من هو العجوز "بيرت"؟</reply>
+		<reply ans="6">ما الذي يشغلك؟</reply>
+	</Question>
+	<Response id="3" ans="4">كان العجوز "بيرت" واحدًا من أفضل عمال المناجم، ولم نر أحدًا مثله أبدًا، وما زلنا على علاقة واتصال به، ونقدم له خدماتنا من وقت لآخر</Response>
+	<Response id="4" ans="5">إنه الآن يعمل على رعاية الأغنام، ويحاول دائمًا إنقاذها أينما كان لقد أصبح العمل بالمنجم شاقًّا جدًّا لرجل في مثل سنِّه</Response>
+	<Question id="5" ans="1" txt="إننا جميعًا نطلب يد العون، فاذا ما كان وقتك يتيح لك المساعدة، فإننا سنُقدِّر لك ذلك كثيرًا">
+		<reply ans="6">ما الذي تحتاج إليه؟</reply>
+		<reply ans="9">شكرًا جزيلاً أراك لاحقًا</reply>
+	</Question>
+	
+	<Question id="6" ans="1" txt="إنني أحاول العثور على صخرة سوداء، فهل بإمكانك مساعدتي؟">
+		<reply ans="7">حسنًا</reply>
+		<reply ans="8">ليس كذلك فعلاً</reply>
+	</Question>
+	<Response id="7" ans="9" opengame="true">شكرًا لك</Response>
+	<Response id="8" ans="9">إنه لأمر طيب</Response>
+	<Response id="9" close="true"></Response>
+	
+	<Game>
+		<gamename>crystal_caves</gamename>
+		<wingame ans="2">يا لها من غنيمة! هذا هو نصيبك</wingame>
+		<endgame ans="2">شكرًا لك سيدي على هذه المساعدة</endgame>
+		<version>AS3</version>
+	</Game>
+</Conversation>

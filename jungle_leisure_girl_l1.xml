@@ -1,0 +1,25 @@
+﻿<Conversation auto="true" characterName="بابلز">
+
+	<Question txt='أنا بابلز ، واعتقد انك تريد ان ترى كسي ، اليس كذلك؟ ' id="1">
+	  <reply ans="2">نعم</reply>
+	  <reply ans="2">لا</reply>
+	  <reply ans="3">إلى اللقاء</reply>
+	</Question>
+	<Question id="2" ans="1" txt="أنت مرح جدًّا، وأعتقد أن كل يوم يبدو رائعًا ">
+		<reply ans="4">حدِّثني عن متجرك</reply>
+		<reply id="2" ans="6">أريد شراء مشروب </reply>
+	</Question>
+	<Question id="4" ans="1" txt="حسنًا، إننا بالطبع نبيع المشروبات التي تجعلك سعيدًا، كما أن بعضها يفيد في أمور أخرى ">
+	    <reply id="5" ans="6">رائع! قل لي ماذا لديك؟ </reply>
+		<reply id="7" ans="3">موافق يمكن ذلك في مرة قادمة </reply>
+	</Question>
+	<Question id="6" txt="الفقاعات5 ، وفواكه الغابة 10، وكرمة الموز 14">
+	    <reply id="9" ans="8" auto="false" type="buy1" cost="5">فقاعات</reply>
+		<reply id="10" ans="8" auto="false" type="buy2" cost="10">فواكه الغابة</reply>
+		<reply id="11" ans="8" auto="false" type="buy3" cost="14">كرمة الموز </reply>
+	</Question>
+	<Response id="8" ans="3">اختيار رائع!</Response>
+	<Response id="3" close="true"></Response>
+	<Response id="9" ans="3">للأسف ليس لديك نقود تكفي لذلك</Response>
+</Conversation>
+	

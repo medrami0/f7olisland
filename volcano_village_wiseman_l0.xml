@@ -1,0 +1,20 @@
+﻿<Conversation characterName="Ahmed" auto="true">
+	<Question txt='Why hello, fellow traveller.' id="1">
+		<reply ans="2">What's your name ?</reply>
+		<reply ans="3">Tell me about this village.</reply>
+		<reply ans="5">Bye</reply>
+	</Question>
+	<Response id="2" ans="1">I am Ahmed. Old hand of the volcano tribe, torch of secrets, helper of the lost.</Response>
+	<Response id="3" ans="4" auto="false" type="checkStatus">The volcano has been hissing lately rather fiercly. It seems to be blocked up. We are looking for a hero to help sort this out before it blows.</Response>
+	<Response id="4" ans="6">If you could get to the top of all this, you will become a celebrated member of the tribe.</Response>
+	<Response id="5" close="true"></Response>
+	<Response id="6" ans="7">I am told there are some missing pieces to a conundrum at the top of the volcano. If you could find these, you will be able to help us.</Response>
+	<Response id="7" ans="5">Good luck if you can fix it. We are hoping somebody brave can help us, but none so far.</Response>
+	<Response id="8" ans="9">You have saved us from a potential cataclysm. Well done, adventurer. Please, accept my reward.</Response>
+	<Question txt="What would you prefer as a reward?" id="9">
+		<reply ans="10" auto="false" type="hat">Special hat</reply>
+		<reply ans="10" auto="false" type="coin">250 black rock coins</reply>
+	</Question>
+	<Response id="10" ans="11">Please, enjoy your prize.</Response>
+	<Response id="11" ans="5">We are all grateful here for your outstanding effort in preventing disaster here, you are an honorary member of this tribe. </Response>
+</Conversation>

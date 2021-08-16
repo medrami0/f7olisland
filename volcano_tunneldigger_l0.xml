@@ -1,0 +1,31 @@
+﻿<Conversation auto="true" characterName="Digger">
+	<Question txt='Hi, sir.' id="1">
+		<reply ans="2">Hi!</reply>
+		<reply ans="5">Bye</reply>
+	</Question>
+	<Question id="2" ans="1" txt="Hey fellah. I'm very busy here. It just isn't the same, like in the old days when old Burt was a mine worker here.">
+		<reply ans="3">Who is old Burt?</reply>
+		<reply ans="6">What are you busy with?</reply>
+	</Question>
+	<Response id="3" ans="4">Old Burt was one of the best miners here. We've never seen anyone quite like him. We are still really close to him and do him some favours every now and then.</Response>
+	<Response id="4" ans="5">He's now working at the sheep shelters, trying to save sheep where he can. The mines simply became too much for him in his old age.</Response>
+	<Question id="5" ans="1" txt="We're all looking for a helping hand, so if you ever have any time, we'd appreciate the help.">
+		<reply ans="6">What is it you need help with?</reply>
+		<reply ans="9">Thanks, see you around.</reply>
+	</Question>
+	
+	<Question id="6" ans="1" txt="I'm mining for black rock. Would you like to give me a hand?">
+		<reply ans="7">OK.</reply>
+		<reply ans="8">Not really.</reply>
+	</Question>
+	<Response id="7" ans="9" opengame="true">Thank you.</Response>
+	<Response id="8" ans="9">That's fine!</Response>
+	<Response id="9" close="true"></Response>
+	
+	<Game>
+		<gamename>crystal_caves</gamename>
+		<wingame ans="2">What a haul! Here, this is your share. </wingame>
+		<endgame ans="2">Thanks for your help, sir!</endgame>
+		<version>AS3</version>
+	</Game>
+</Conversation>
